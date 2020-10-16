@@ -1,0 +1,21 @@
+.mat-toolbar {
+  background: #ebca26;
+  height: 66px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1000;
+
+  img {
+    width: auto;
+    height: 45px;
+    outline: none;
+  }
+}
+
+.right-nav {
+  position: absolute;
+  right: 6%;
+}
+
+
