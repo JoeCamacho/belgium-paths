@@ -12,7 +12,7 @@ export interface InfoTopic {
 })
 export class InfoTileComponent implements OnInit {
 
-  private infoTopics = [
+  public infoTopics = [
     {
       id: '1',
       image: 'src/assets/img/tiles/education.jpeg'

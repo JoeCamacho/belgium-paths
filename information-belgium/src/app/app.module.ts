@@ -33,7 +33,7 @@ const MaterialModules = [
     AppComponent,
     NonAuthenticatedLayoutComponent,
     ...Components,
-    ...Containers, ,
+    ...Containers,
   ],
   bootstrap: [AppComponent]
 })
