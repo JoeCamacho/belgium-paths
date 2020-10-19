@@ -1,7 +1,10 @@
-import {TilesGridComponent} from './tiles-grid/tiles-grid.component';
+import {InfoAreaComponent} from './info-area/info-area.component';
+import {AreaTilesGridComponent} from './area-tiles-grid/area-tiles-grid.component';
 
-export * from './tiles-grid/tiles-grid.component';
+export * from './area-tiles-grid/area-tiles-grid.component';
+export * from './info-area/info-area.component';
 
 export const Containers = [
-  TilesGridComponent,
+  AreaTilesGridComponent,
+  InfoAreaComponent,
 ];

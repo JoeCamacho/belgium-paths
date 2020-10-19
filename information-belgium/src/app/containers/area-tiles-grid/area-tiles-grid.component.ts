@@ -1,11 +1,11 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-tiles-grid',
-  templateUrl: './tiles-grid.component.html',
-  styleUrls: ['./tiles-grid.component.scss']
+  selector: 'app-area-tiles-grid',
+  templateUrl: './area-tiles-grid.component.html',
+  styleUrls: ['./area-tiles-grid.component.scss']
 })
-export class TilesGridComponent implements OnInit {
+export class AreaTilesGridComponent implements OnInit {
 
   public infoTopics = [
     {

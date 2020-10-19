@@ -1,7 +1,8 @@
 <section class="container-fluid">
   <div class="row" style="padding-top: 50px;">
     <div class="col-4" *ngFor="let infoTopic of infoTopics">
-      <img class="img-fluid" src="/assets/img/tiles/{{infoTopic.image}}" alt="Section image">
+      <img [routerLink]="infoTopic.id" class="img-fluid"
+           src="/assets/img/tiles/{{infoTopic.image}}" alt="Section image">
     </div>
   </div>
 </section>

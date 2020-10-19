@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {NonAuthenticatedLayoutComponent} from './layouts/non-authenticated-layout/non-authenticated-layout.component';
-import {TilesGridComponent} from './containers';
+import {AreaTilesGridComponent, InfoAreaComponent} from './containers';
 
 
 const routes: Routes = [
@@ -11,7 +11,16 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        component: TilesGridComponent,
+        component: AreaTilesGridComponent,
+      },
+      {
+        path: ':areaId',
+        children: [
+          {
+            path: '',
+            component: InfoAreaComponent,
+          }
+        ]
       }
     ]
   }
