@@ -1,7 +1,7 @@
-<div class="container">
-  <div class="row w-100">
-    <div class="col">
-      <app-info-tile></app-info-tile>
+<section class="container-fluid">
+  <div class="row" style="padding-top: 50px;">
+    <div class="col-4" *ngFor="let infoTopic of infoTopics">
+      <img class="img-fluid" src="/assets/img/tiles/{{infoTopic.image}}" alt="Section image">
     </div>
   </div>
-</div>
+</section>
