@@ -2,7 +2,7 @@ section {
   background-color: #EFEFEF;
   margin-left: 0;
   margin-right: 0;
-  padding-top: 8px;
+  padding-top: 80px;
   padding-left: 100px;
   padding-right: 100px;
 
@@ -11,6 +11,7 @@ section {
     padding-right: 5px;
     margin-bottom: 2%;
     text-align: center;
+    outline: none;
 
     &:hover {
       box-shadow: 0 10px 15px -10px rgba(30, 45, 62, .21), 0 5px 40px -10px rgba(31, 44, 60, .1);
