@@ -9,45 +9,45 @@ export class AreaTilesGridComponent implements OnInit {
 
   public infoSections = [
     {
-      id: 'Education',
-      image: 'education.jpg'
+      id: 'documents',
+      sectionName: 'Documents',
+      image: 'documents.jpg'
     },
     {
-      id: 'Healthcare',
+      id: 'healthcare',
+      sectionName: 'Healthcare',
       image: 'healthcare.jpg'
     },
     {
-      id: 'History',
-      image: 'history.jpg'
+      id: 'education',
+      sectionName: 'Education',
+      image: 'education.jpg'
     },
     {
-      id: 'Housing',
-      image: 'housing.jpg'
+      id: 'transportation',
+      sectionName: 'Transportation',
+      image: 'transportation.jpeg'
     },
     {
-      id: 'Politics',
+      id: 'politics',
+      sectionName: 'Politics',
       image: 'politics.jpg'
     },
     {
-      id: 'Recycling',
-      image: 'recycling.jpg'
+      id: 'museum',
+      sectionName: 'Museum',
+      image: 'museum.jpg'
     },
     {
-      id: 'Taxes',
-      image: 'taxes.jpg'
+      id: 'public-utilities',
+      sectionName: 'Public utilities',
+      image: 'public-utilities.jpg'
     },
     {
-      id: 'Traditions',
-      image: 'traditions.jpg'
+      id: 'start-business',
+      sectionName: 'Start a business',
+      image: 'start-business.jpg'
     },
-    {
-      id: 'Values',
-      image: 'values.jpg'
-    },
-    {
-      id: 'Work',
-      image: 'work.jpg'
-    }
   ];
 
   constructor() {
