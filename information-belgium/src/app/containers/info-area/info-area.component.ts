@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import * as dataResources from '../../data/dataResources';
 
 @Component({
   selector: 'app-info-area',
@@ -7,12 +8,14 @@ import {Component, OnInit} from '@angular/core';
 })
 export class InfoAreaComponent implements OnInit {
 
+  public dataResources = dataResources.dataResources;
   panelOpenState = false;
 
   constructor() {
   }
 
   ngOnInit() {
+
   }
 
 }
