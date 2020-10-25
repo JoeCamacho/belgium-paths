@@ -7,45 +7,45 @@ import {Component, OnInit} from '@angular/core';
 })
 export class AreaTilesGridComponent implements OnInit {
 
-  public infoTopics = [
+  public infoSections = [
     {
-      id: '1',
+      id: 'education',
       image: 'education.jpg'
     },
     {
-      id: '2',
+      id: 'healthcare',
       image: 'healthcare.jpg'
     },
     {
-      id: '3',
+      id: 'history',
       image: 'history.jpg'
     },
     {
-      id: '4',
+      id: 'housing',
       image: 'housing.jpg'
     },
     {
-      id: '5',
+      id: 'politics',
       image: 'politics.jpg'
     },
     {
-      id: '6',
+      id: 'recycling',
       image: 'recycling.jpg'
     },
     {
-      id: '7',
+      id: 'taxes',
       image: 'taxes.jpg'
     },
     {
-      id: '8',
+      id: 'traditions',
       image: 'traditions.jpg'
     },
     {
-      id: '9',
+      id: 'values',
       image: 'values.jpg'
     },
     {
-      id: '10',
+      id: 'work',
       image: 'work.jpg'
     }
   ];

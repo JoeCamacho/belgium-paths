@@ -14,6 +14,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatCardModule} from "@angular/material/card";
 
 const MaterialModules = [
   MatIconModule,
@@ -24,13 +25,14 @@ const MaterialModules = [
 ];
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
 
-    ...MaterialModules,
-  ],
+        ...MaterialModules,
+        MatCardModule,
+    ],
   declarations: [
     AppComponent,
     NonAuthenticatedLayoutComponent,

@@ -1,8 +1,20 @@
 <section class="container-fluid">
-  <div class="row" style="padding-top: 50px;">
-    <div class="col-4" *ngFor="let infoTopic of infoTopics">
-      <img [routerLink]="infoTopic.id" class="img-fluid"
-           src="/assets/img/tiles/{{infoTopic.image}}" alt="Section image">
-    </div>
+  <div class="row w-100" style="padding-top: 50px;">
+    <mat-card [routerLink]="infoSection.id" class="col-4 section-card"
+              *ngFor="let infoSection of infoSections">
+      <mat-card-header>
+        <!--        <div mat-card-avatar class="example-header-image"></div>-->
+        <mat-card-title>{{infoSection.id}}</mat-card-title>
+      </mat-card-header>
+
+      <img mat-card-image src="/assets/img/tiles/{{infoSection.image}}"
+           alt="{{infoSection.id}}" class="img-fluid">
+      <mat-card-content>
+        <!--      <p>-->
+        <!--       TODO: CONTENT??-->
+        <!--      </p>-->
+      </mat-card-content>
+    </mat-card>
   </div>
 </section>
+

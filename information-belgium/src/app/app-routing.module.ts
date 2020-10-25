@@ -14,7 +14,7 @@ const routes: Routes = [
         component: AreaTilesGridComponent,
       },
       {
-        path: ':areaId',
+        path: ':sectionId',
         children: [
           {
             path: '',
