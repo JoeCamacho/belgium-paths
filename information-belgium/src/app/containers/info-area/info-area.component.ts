@@ -9,7 +9,7 @@ import {ActivatedRoute, Router} from '@angular/router';
 })
 export class InfoAreaComponent implements OnInit {
 
-  public dataResources = dataResources.dataResources;
+  // public dataResources = dataResources.dataResources;
 
   public filteredDataResources = [];
 
@@ -19,7 +19,7 @@ export class InfoAreaComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.filteredDataResources.map(resources => resources.section === this.route.snapshot);
+    this.filteredDataResources = dataResources.dataResources.filter(resource => resource.section === this.route.snapshot.params.sectionId);
   }
 
 }
