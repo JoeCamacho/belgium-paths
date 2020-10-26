@@ -1,27 +1,13 @@
 <section>
-  <!--  <mat-accordion *ngFor="let dataResource of dataResources">-->
-  <!--    <mat-expansion-panel hideToggle>-->
-  <!--      <mat-expansion-panel-header>-->
-  <!--        <mat-panel-title>-->
-  <!--          {{dataResource.name}}-->
-  <!--        </mat-panel-title>-->
-  <!--        <mat-panel-description>-->
-  <!--          {{dataResource.description}}-->
-  <!--        </mat-panel-description>-->
-  <!--      </mat-expansion-panel-header>-->
-  <!--      <p>{{dataResource.url}}</p>-->
-  <!--    </mat-expansion-panel>-->
-  <!--  </mat-accordion>-->
-
-  <div class="row" *ngFor="let dataResource of filteredDataResources">
-    <mat-card class="example-card col-6 col-md-col-sm-6 col-lg-4 col-xl-4"
-              *ngIf="router.url === dataResource.section">
+  <div class="row">
+    <mat-card *ngFor="let dataResource of dataResources"
+              class="col-12 col-md-col-sm-6 col-lg-6 col-xl-4">
       <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
+        <div mat-card-avatar class="icon-header-image"></div>
         <mat-card-title>{{dataResource.name}}</mat-card-title>
 
       </mat-card-header>
-      <img mat-card-image src="{{dataResource.section}}" alt="Photo of a Shiba Inu">
+      <img mat-card-image src="../../../assets/img/tiles/information_placeholder.jpg" alt="Photo comes here">
       <mat-card-content>
         <p>
           {{dataResource.description}}
@@ -29,5 +15,6 @@
       </mat-card-content>
     </mat-card>
   </div>
+
 
 </section>
