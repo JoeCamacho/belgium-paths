@@ -3,42 +3,42 @@ export const dataResources = [
     id: '1',
     section: 'documents',
     name: 'Immigration law & private international law',
-    description: '',
+    description: 'Portal from the Agency Integration and Inburgering',
     url: 'https://www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht'
   },
   {
     id: '2',
     section: 'documents',
     name: 'Residence documents',
-    description: '',
+    description: 'General overview of the all the belgian redicence documents',
     url: 'www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/verblijfsdocumenten'
   },
   {
     id: '3',
     section: 'documents',
     name: 'Right to travel',
-    description: '',
+    description: 'General overview of travel in Belgium and Europe',
     url: 'www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/verblijfsrecht-uitwijzing-reizen/reizen'
   },
   {
     id: '4',
     section: 'documents',
-    name: 'Right to work',
-    description: '',
+    name: 'Work in Flanders',
+    description: 'Information about working in Flanders provided by the Flemish govermet',
     url: 'www.vlaanderen.be/als-buitenlander-in-vlaanderen-komen-werken'
   },
   {
     id: '5',
     section: 'documents',
     name: 'Foreign Affairs service',
-    description: '',
+    description: 'Belgian goverment office that ensures the management of the migration flows',
     url: 'https://www.ibz.be/nl/dienst-vreemdelingenzaken'
   },
   {
     id: '6',
     section: 'documents',
     name: 'Belgian police',
-    description: '',
+    description: 'Official website of the Belgian police force',
     url: 'https://www.police.be/en'
   },
   {
@@ -66,15 +66,15 @@ export const dataResources = [
     id: '10',
     section: 'documents',
     name: 'Apply for belgian nationality',
-    description: '',
+    description: 'General information about how to apply for the Belgian nationality provided by the non-profit Objectief',
     url: 'http://www.allrights.be/nl/hoe-wordt-je-belg'
   },
   {
     id: '11',
     section: 'documents',
-    name: 'Apply for belgian nationality 2',
-    description: '',
-    url: 'https://www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/nationaliteit/wie-kan-belg-worden/je-bent-meerderjarig'
+    name: 'Belgian nationality Agency Integration and Inburgering',
+    description: 'General information about how to apply for the Belgian nationality provided by',
+    url: 'https://www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/nationaliteit'
   },
   {
     id: '12',
@@ -638,77 +638,77 @@ export const dataResources = [
   },
   {
     id: '92',
-    section: 'own-business',
+    section: 'start-business',
     name: 'Unizo',
     description: 'Entrepreneurial organization in Flanders and Brussels',
     url: 'https://www.unizo.be/'
   },
   {
     id: '93',
-    section: 'own-business',
+    section: 'start-business',
     name: 'Voka',
     description: 'Flemish network of companies.',
     url: 'https://www.voka.be/'
   },
   {
     id: '94',
-    section: 'own-business',
+    section: 'start-business',
     name: 'Flanders Innovation & Entrepreneurship ',
     description: 'Is the contact point for entrepreneurs in Flanders. Encourage and support innovation and entrepreneurship.',
     url: 'https://www.vlaio.be/nl/andere-doelgroepen/flanders-innovation-entrepreneurship'
   },
   {
     id: '95',
-    section: 'own-business',
+    section: 'start-business',
     name: 'RSVZ / INASTI',
     description: 'National Institute for the Social Insurance of the Self-Employed',
     url: 'https://www.rsvz.be/nl'
   },
   {
     id: '96',
-    section: 'own-business',
+    section: 'start-business',
     name: 'Dyzo',
     description: 'An organisation that helps entrepreneurs in case of financial difficulties',
     url: 'https://dyzo.be/'
   },
   {
     id: '97',
-    section: 'own-business',
+    section: 'start-business',
     name: 'Acerta',
     description: 'Information about starting a business from Acerta',
     url: 'https://www.acerta.be/en/starting-your-business'
   },
   {
     id: '98',
-    section: 'own-business',
+    section: 'start-business',
     name: 'Securex - Start business',
     description: 'Information about starting a business from Securex',
     url: 'https://www.istartmybusiness.be/topic/en/homepage'
   },
   {
     id: '99',
-    section: 'own-business',
+    section: 'start-business',
     name: 'Kunstenloket',
     description: 'Business support for the culture sector',
     url: 'https://www.kunstenloket.be/'
   },
   {
     id: '100',
-    section: 'own-business',
+    section: 'start-business',
     name: 'Project AZO',
     description: 'Support for Foreign-language Self-Employed Entrepreneur',
     url: 'https://projectazo.be/'
   },
   {
     id: '101',
-    section: 'own-business',
+    section: 'start-business',
     name: 'Microstart',
     description: 'Offers professional loan, free training and coaching. They give support to create your business.',
     url: 'https://microstart.be/nl'
   },
   {
     id: '102',
-    section: 'own-business',
+    section: 'start-business',
     name: 'PMVZ',
     description: 'Apply for a starting business loan',
     url: 'https://www.pmvz.eu/startlening'

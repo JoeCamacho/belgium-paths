@@ -9,13 +9,9 @@ import {ActivatedRoute, Router} from '@angular/router';
 })
 export class InfoAreaComponent implements OnInit {
 
-  // public dataResources = dataResources.dataResources;
-
   public filteredDataResources = [];
 
-  constructor(public router: Router,
-              public route: ActivatedRoute) {
-
+  constructor(public route: ActivatedRoute) {
   }
 
   ngOnInit() {
