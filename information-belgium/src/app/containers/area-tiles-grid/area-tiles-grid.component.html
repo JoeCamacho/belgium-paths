@@ -20,13 +20,8 @@
 
 <section class="container" style="padding-top: 100px;">
   <div class="grid">
-    <div><img src="" alt=""></div>
-    <div><img src="" alt=""></div>
-    <div><img src="" alt=""></div>
-    <div><img src="" alt=""></div>
-    <div><img src="" alt=""></div>
-    <div><img src="" alt=""></div>
-    <div><img src="" alt=""></div>
-    <div><img src="" alt=""></div>
+    <div *ngFor="let infoSection of infoSections" [routerLink]="infoSection.id">
+      <img src="/assets/img/tiles/{{infoSection.image}}" alt="Tile image">
+    </div>
   </div>
 </section>

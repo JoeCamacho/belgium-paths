@@ -11,42 +11,42 @@ export class AreaTilesGridComponent implements OnInit {
     {
       id: 'documents',
       sectionName: 'Documents',
-      image: 'documents.jpg'
+      image: 'money-bag-hand-drawn-variant.png'
     },
     {
       id: 'healthcare',
       sectionName: 'Healthcare',
-      image: 'healthcare.jpg'
+      image: 'money-bag-hand-drawn-variant.png'
     },
     {
       id: 'education',
       sectionName: 'Education',
-      image: 'education.jpg'
+      image: 'money-bag-hand-drawn-variant.png'
     },
     {
       id: 'transportation',
       sectionName: 'Transportation',
-      image: 'transportation.jpeg'
+      image: 'money-bag-hand-drawn-variant.png'
     },
     {
       id: 'politics',
       sectionName: 'Politics',
-      image: 'politics.jpg'
+      image: 'money-bag-hand-drawn-variant.png'
     },
     {
       id: 'museum',
       sectionName: 'Museum',
-      image: 'museum.jpg'
+      image: 'money-bag-hand-drawn-variant.png'
     },
     {
       id: 'public-utilities',
       sectionName: 'Public utilities',
-      image: 'public-utilities.jpg'
+      image: 'money-bag-hand-drawn-variant.png'
     },
     {
       id: 'start-business',
       sectionName: 'Start a business',
-      image: 'start-business.jpg'
+      image: 'money-bag-hand-drawn-variant.png'
     },
   ];
 
