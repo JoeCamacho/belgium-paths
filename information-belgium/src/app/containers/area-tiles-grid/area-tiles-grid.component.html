@@ -1,27 +1,12 @@
-<!--<section>-->
-<!--  <div class="row">-->
-<!--    <mat-card [routerLink]="infoSection.id" class="col-12 col-md-col-sm-6 col-lg-6 col-xl-4"-->
-<!--              *ngFor="let infoSection of infoSections">-->
-<!--      <mat-card-header>-->
-<!--        <mat-card-title>{{infoSection.sectionName}}</mat-card-title>-->
-<!--      </mat-card-header>-->
-
-<!--      <img mat-card-image src="/assets/img/tiles/{{infoSection.image}}"-->
-<!--           alt="{{infoSection.sectionName}}" class="img-fluid">-->
-
-<!--      <mat-card-content>-->
-<!--        &lt;!&ndash;      <p>&ndash;&gt;-->
-<!--        &lt;!&ndash;       TODO: CONTENT??&ndash;&gt;-->
-<!--        &lt;!&ndash;      </p>&ndash;&gt;-->
-<!--      </mat-card-content>-->
-<!--    </mat-card>-->
-<!--  </div>-->
-<!--</section>-->
-
-<section class="container" style="padding-top: 100px;">
+<div class="container-fluid" style="padding: 100px;">
   <div class="grid">
-    <div *ngFor="let infoSection of infoSections" [routerLink]="infoSection.id">
-      <img src="/assets/img/tiles/{{infoSection.image}}" alt="Tile image">
+    <div class="container" *ngFor="let infoSection of infoSections"
+         [routerLink]="infoSection.id">
+      <img class="image" src="/assets/img/tiles/{{infoSection.image}}" alt="Tile image"  >
+      <div class="middle">
+        <div class="section-title">{{infoSection.sectionName}}</div>
+      </div>
     </div>
   </div>
-</section>
+</div>
+
