@@ -1,7 +1,7 @@
 .mat-toolbar {
   padding-left: 25px;
   padding-right: 25px;
-  background: #FF3B3F;
+  background: #FFFFFF;
   height: 66px;
   position: sticky;
   position: -webkit-sticky;
@@ -9,14 +9,14 @@
   z-index: 1000;
 
   i {
-    color: #FFFFFF;
+    color: #3CC47C;
     font-size: 40px;
     cursor: pointer;
     outline: none;
   }
 
   p {
-    color: #FFFFFF;
+    color: #414a4c;
     margin-bottom: 0;
   }
 
@@ -32,6 +32,12 @@
 .right-nav {
   position: absolute;
   right: 6%;
+  display: flex;
+  flex-direction: row;
+
+  p {
+    margin: 0 15px;
+  }
 }
 
 
