@@ -1,0 +1,8 @@
+<section class="container" style="padding-top: 50px;">
+  <div class="grid">
+    <div *ngFor="let infoSection of infoSections" [routerLink]="infoSection.id">
+      <img src="../../../assets/img/tile-icons/{{infoSection.image}}" alt="Documents icon">
+      <p>{{infoSection.sectionName}}</p>
+    </div>
+  </div>
+</section>

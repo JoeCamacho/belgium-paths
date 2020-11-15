@@ -2,50 +2,50 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-area-tiles-grid',
-  templateUrl: './area-tiles-grid.component.html',
-  styleUrls: ['./area-tiles-grid.component.scss']
+  templateUrl: './sectors-tiles-grid.component.html',
+  styleUrls: ['./sectors-tiles-grid.component.scss']
 })
-export class AreaTilesGridComponent implements OnInit {
+export class SectorsTilesGridComponent implements OnInit {
 
   public infoSections = [
     {
       id: 'documents',
-      sectionName: 'Documents',
+      sectionName: 'DOCUMENTS',
       image: 'documents.svg'
     },
     {
       id: 'healthcare',
-      sectionName: 'Healthcare',
+      sectionName: 'HEALTHCARE',
       image: 'healthcare.svg'
     },
     {
       id: 'education',
-      sectionName: 'Education',
+      sectionName: 'EDUCATION',
       image: 'education.svg'
     },
     {
       id: 'transportation',
-      sectionName: 'Transportation',
+      sectionName: 'TRANSPORTATION',
       image: 'transportation.svg'
     },
     {
       id: 'politics',
-      sectionName: 'Politics',
+      sectionName: 'POLITICS',
       image: 'politics.svg'
     },
     {
       id: 'museum',
-      sectionName: 'Museum',
+      sectionName: 'MUSEUM',
       image: 'museum.svg'
     },
     {
       id: 'public-utilities',
-      sectionName: 'Public utilities',
+      sectionName: 'PUBLIC UTILITIES',
       image: 'public-utilities.svg'
     },
     {
       id: 'start-business',
-      sectionName: 'Start a business',
+      sectionName: 'START A BUSINESS',
       image: 'start-business.svg'
     },
   ];
