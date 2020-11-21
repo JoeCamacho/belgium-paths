@@ -7,7 +7,7 @@ mat-card {
   img {
     width: 7%;
     height: auto;
-    margin: 0;
+    margin: 10px;
   }
 }
 
@@ -15,7 +15,11 @@ mat-card {
   display: flex;
   flex-direction: row;
 
-  .card-text{
+  .card-text {
     padding-left: 20px;
+  }
+
+  mat-card-content {
+    font-size: 16px;
   }
 }
