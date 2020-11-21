@@ -7,48 +7,49 @@ import {Component, OnInit} from '@angular/core';
 })
 export class SectorsTilesGridComponent implements OnInit {
 
-  public infoSections = [
+  public infoSectors = [
     {
       id: 'documents',
-      sectionName: 'DOCUMENTS',
+      sector: 'DOCUMENTS',
       image: 'documents.svg'
     },
     {
       id: 'healthcare',
-      sectionName: 'HEALTHCARE',
+      sector: 'HEALTHCARE',
       image: 'healthcare.svg'
     },
     {
       id: 'education',
-      sectionName: 'EDUCATION',
+      sector: 'EDUCATION',
       image: 'education.svg'
     },
     {
       id: 'transportation',
-      sectionName: 'TRANSPORTATION',
+      sector: 'TRANSPORTATION',
       image: 'transportation.svg'
     },
     {
       id: 'politics',
-      sectionName: 'POLITICS',
+      sector: 'POLITICS',
       image: 'politics.svg'
     },
     {
       id: 'museum',
-      sectionName: 'MUSEUM',
+      sector: 'MUSEUM',
       image: 'museum.svg'
     },
     {
       id: 'public-utilities',
-      sectionName: 'PUBLIC UTILITIES',
+      sector: 'PUBLIC UTILITIES',
       image: 'public-utilities.svg'
     },
     {
       id: 'start-business',
-      sectionName: 'START A BUSINESS',
+      sector: 'START A BUSINESS',
       image: 'start-business.svg'
     },
   ];
+
 
   constructor() {
   }

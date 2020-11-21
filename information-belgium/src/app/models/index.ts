@@ -1,6 +1,7 @@
 export interface ResourcePortal {
   id: string;
-  section: string;
+  sector: string;
+  sectorImage: string;
   name: string;
   description: string;
   url: string;

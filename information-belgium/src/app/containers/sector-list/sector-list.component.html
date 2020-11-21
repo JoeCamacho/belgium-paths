@@ -1,0 +1,11 @@
+<section class="container" style="padding-top: 50px; padding-left: 100px; padding-right: 100px;">
+  <mat-card *ngFor="let dataResource of filteredDataResources" class="card-content">
+    <img mat-card-image src="./../../assets/img/tile-icons/{{dataResource.sectorImage}}" alt="sector icon">
+    <div class="card-text">
+      <mat-card-title>{{dataResource.name}}</mat-card-title>
+      <mat-card-content>{{dataResource.description}}</mat-card-content>
+    </div>
+  </mat-card>
+</section>
+
+
