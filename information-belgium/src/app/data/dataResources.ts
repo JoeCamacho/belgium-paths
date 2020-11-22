@@ -13,7 +13,7 @@ export const dataResources = [
     sectorImage: 'documents.svg',
     name: 'Residence documents',
     description: 'General overview of the all the belgian redicence documents',
-    url: 'www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/verblijfsdocumenten'
+    url: 'https://www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/verblijfsdocumenten'
   },
   {
     id: '3',
@@ -21,7 +21,7 @@ export const dataResources = [
     sectorImage: 'documents.svg',
     name: 'Right to travel',
     description: 'General overview of travel in Belgium and Europe',
-    url: 'www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/verblijfsrecht-uitwijzing-reizen/reizen'
+    url: 'https://www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/verblijfsrecht-uitwijzing-reizen/reizen'
   },
   {
     id: '4',
@@ -29,7 +29,7 @@ export const dataResources = [
     sectorImage: 'documents.svg',
     name: 'Work in Flanders',
     description: 'Information about working in Flanders provided by the Flemish govermet',
-    url: 'www.vlaanderen.be/als-buitenlander-in-vlaanderen-komen-werken'
+    url: 'https://www.vlaanderen.be/als-buitenlander-in-vlaanderen-komen-werken'
   },
   {
     id: '5',
@@ -205,7 +205,7 @@ export const dataResources = [
     sectorImage: 'documents.svg',
     name: 'Myminfin',
     description: 'Portal for taxes',
-    url: 'myminfin.be'
+    url: 'https://www.myminfin.be'
   },
   {
     id: '27',
@@ -341,7 +341,7 @@ export const dataResources = [
     sectorImage: 'education.svg',
     name: 'JAC',
     description: 'JAC is the youth department of CAW, a social organization helping people to solve questions and personal, financial, administrative or judicial problems',
-    url: ' https://www.caw.be/jac/'
+    url: 'https://www.caw.be/jac/'
   },
   {
     id: '44',
@@ -381,7 +381,7 @@ export const dataResources = [
     sectorImage: 'education.svg',
     name: 'Syntra',
     description: 'SYNTRA provides practice-oriented courses for enterprising people',
-    url: 'www.syntra.be'
+    url: 'https://www.syntra.be'
   },
   {
     id: '49',
@@ -517,7 +517,7 @@ export const dataResources = [
     sectorImage: 'politics.svg',
     name: 'Belgian federal Parliament',
     description: 'Belgian federal Parliament',
-    url: 'www.fed-parl.be'
+    url: 'https://www.fed-parl.be'
   },
   {
     id: '66',
@@ -525,7 +525,7 @@ export const dataResources = [
     sectorImage: 'politics.svg',
     name: 'Vlaams parlement',
     description: 'Flemish Parliament',
-    url: ' www.vlaamsparlement.be'
+    url: 'https://www.vlaamsparlement.be'
   },
   {
     id: '67',
@@ -597,7 +597,7 @@ export const dataResources = [
     sectorImage: 'housing.svg',
     name: 'Immoweb',
     description: 'Website to find real estate for sale & for rent in Belgium.',
-    url: 'www.immoweb.be'
+    url: 'https://www.immoweb.be'
   },
   {
     id: '76',
@@ -605,7 +605,7 @@ export const dataResources = [
     sectorImage: 'housing.svg',
     name: 'Zimmo',
     description: 'Website for real estate ads for sale and for rent in Belgium.',
-    url: 'www.zimmo.be'
+    url: 'https://www.zimmo.be'
   },
   {
     id: '77',
@@ -613,7 +613,7 @@ export const dataResources = [
     sectorImage: 'housing.svg',
     name: 'Logic immo',
     description: 'Is a real estate classifieds website dedicated to Belgium',
-    url: 'www.logic-immo.be'
+    url: 'https://www.logic-immo.be'
   },
   {
     id: '78',
@@ -637,7 +637,7 @@ export const dataResources = [
     sectorImage: 'housing.svg',
     name: 'Immothekerfinotheker',
     description: 'Provides financial advice for buying a house or investing',
-    url: 'www.immothekerfinotheker.be'
+    url: 'https://www.immothekerfinotheker.be'
   },
   {
     id: '81',
@@ -709,7 +709,7 @@ export const dataResources = [
     sectorImage: 'public-utilities.svg',
     name: 'Aanbieders',
     description: 'Gives an overview on energy, telecom and mobile services.',
-    url: ': https://www.aanbieders.be/'
+    url: 'https://www.aanbieders.be/'
   },
   {
     id: '90',
@@ -815,4 +815,4 @@ export const dataResources = [
     description: 'Apply for a starting business loan',
     url: 'https://www.pmvz.eu/startlening'
   }
-]
+];

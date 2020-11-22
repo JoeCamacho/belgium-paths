@@ -20,6 +20,17 @@ const routes: Routes = [
       {
         path: 'sectors',
         component: SectorsTilesGridComponent,
+        // children: [
+        //   {
+        //     path: ':sectorId',
+        //     children: [
+        //       {
+        //         path: '',
+        //         component: SectorListComponent,
+        //       }
+        //     ]
+        //   }
+        // ]
       },
       {
         path: ':sectorId',

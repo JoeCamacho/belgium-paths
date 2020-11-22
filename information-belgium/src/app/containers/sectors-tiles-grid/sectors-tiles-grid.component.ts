@@ -1,11 +1,13 @@
 import {Component, OnInit} from '@angular/core';
+import {ActivatedRoute, Router} from "@angular/router";
+import {ResourcePortal} from "../../models";
 
 @Component({
   selector: 'app-area-tiles-grid',
   templateUrl: './sectors-tiles-grid.component.html',
   styleUrls: ['./sectors-tiles-grid.component.scss']
 })
-export class SectorsTilesGridComponent implements OnInit {
+export class SectorsTilesGridComponent {
 
   public infoSectors = [
     {
@@ -39,6 +41,11 @@ export class SectorsTilesGridComponent implements OnInit {
       image: 'museum.svg'
     },
     {
+      id: 'housing',
+      sector: 'HOUSING',
+      image: 'housing.svg'
+    },
+    {
       id: 'public-utilities',
       sector: 'PUBLIC UTILITIES',
       image: 'public-utilities.svg'
@@ -51,10 +58,8 @@ export class SectorsTilesGridComponent implements OnInit {
   ];
 
 
-  constructor() {
-  }
-
-  ngOnInit() {
+  constructor(private router: Router,
+              private active: ActivatedRoute) {
   }
 
 }
