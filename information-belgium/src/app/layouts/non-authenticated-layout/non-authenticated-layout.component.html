@@ -1,8 +1,8 @@
 <mat-toolbar class="d-none d-lg-flex">
   <img src="../../../assets/img/information.png" alt="Information icon" routerLink="/">
   <div class="right-nav">
-    <a routerLink=""><p>About</p></a>
-    <a routerLink=""><p>Contact</p></a>
+    <button mat-flat-button [routerLink]="['about']"><p>About</p></button>
+    <button mat-flat-button [routerLink]="['contact']"><p>Contact</p></button>
   </div>
 
 </mat-toolbar>
@@ -16,8 +16,9 @@
     </button>
 
     <mat-menu #userMenu="matMenu">
+      <button mat-menu-item [routerLink]="['about']"><p>About</p></button>
+      <button mat-menu-item [routerLink]="['contact']"><p>Contact</p></button>
     </mat-menu>
-
   </div>
 </mat-toolbar>
 
