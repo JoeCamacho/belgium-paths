@@ -1,7 +1,7 @@
-import {InfoTileComponent} from './info-tile/info-tile.component';
+import {ContactFormComponent} from './contact-form/contact-form.component';
 
-export * from './info-tile/info-tile.component';
+export * from './contact-form/contact-form.component';
 
 export const Components = [
-  InfoTileComponent,
+  ContactFormComponent,
 ];

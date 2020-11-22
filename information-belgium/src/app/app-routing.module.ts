@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {NonAuthenticatedLayoutComponent} from './layouts/non-authenticated-layout/non-authenticated-layout.component';
 import {
+  AboutPageComponent, ContactPageComponent,
   LandingPageComponent,
   SectorListComponent,
   SectorsTilesGridComponent
@@ -17,6 +18,14 @@ const routes: Routes = [
         path: '',
         component: LandingPageComponent,
       },
+      {
+        path: 'about',
+        component: AboutPageComponent,
+      },
+      // {
+      //   path: 'contact',
+      //   component: ContactPageComponent,
+      // },
       {
         path: 'sectors',
         component: SectorsTilesGridComponent,
@@ -40,7 +49,7 @@ const routes: Routes = [
             component: SectorListComponent,
           }
         ]
-      }
+      },
     ]
   }
 ];
