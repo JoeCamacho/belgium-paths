@@ -2,6 +2,7 @@ mat-card {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid #3CC47C;
+  font-family: 'Mulish', sans-serif;
 
   &:hover {
     box-shadow: 0 5px 15px -10px rgba(30, 45, 62, .21), 0 5px 10px -10px rgba(31, 44, 60, .1);
@@ -19,6 +20,7 @@ mat-card {
   .card-content {
     display: flex;
     flex-direction: row;
+    font-family: 'Mulish', sans-serif;
 
     .card-text {
       padding-left: 20px;

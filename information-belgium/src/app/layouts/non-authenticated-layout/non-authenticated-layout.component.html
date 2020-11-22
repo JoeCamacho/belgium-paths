@@ -1,9 +1,15 @@
 <mat-toolbar class="d-none d-lg-flex">
   <img src="../../../assets/img/information.png" alt="Information icon" routerLink="/">
   <div class="right-nav">
-    <button mat-flat-button [routerLink]="['/sectors']"><p>Sectors</p></button>
-    <button mat-flat-button [routerLink]="['/about']"><p>About</p></button>
-<!--    <button mat-flat-button [routerLink]="['/contact']"><p>Contact</p></button>-->
+    <button mat-flat-button routerLinkActive="active" [routerLink]="['/sectors']">
+      Sectors
+    </button>
+    <button mat-flat-button routerLinkActive="active" [routerLink]="['/about']">
+      About
+    </button>
+    <!--    <button mat-flat-button routerLinkActive="active" [routerLink]="['/contact']">-->
+    <!--      Contact-->
+    <!--    </button>-->
   </div>
 
 </mat-toolbar>
@@ -18,9 +24,15 @@
     </button>
 
     <mat-menu #userMenu="matMenu">
-      <button mat-menu-item [routerLink]="['/sectors']"><p>Sector</p></button>
-      <button mat-menu-item [routerLink]="['/about']"><p>About</p></button>
-<!--      <button mat-menu-item [routerLink]="['/contact']"><p>Contact</p></button>-->
+      <button mat-menu-item routerLinkActive="active" [routerLink]="['/sectors']">
+        Sector
+      </button>
+      <button mat-menu-item routerLinkActive="active" [routerLink]="['/about']">
+        About
+      </button>
+      <!--      <button mat-menu-item routerLinkActive="active" [routerLink]="['/contact']">-->
+      <!--        Contact-->
+      <!--      </button>-->
     </mat-menu>
 
   </div>
