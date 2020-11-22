@@ -1,8 +1,8 @@
 <section class="container" style="padding-top: 50px;">
   <div class="grid">
-    <div *ngFor="let infoSector of infoSectors" [routerLink]="infoSector.id">
+    <mat-card *ngFor="let infoSector of infoSectors" [routerLink]="['/', infoSector.id]">
       <img src="../../../assets/img/tile-icons/{{infoSector.image}}" alt="Documents icon">
       <p>{{infoSector.sector}}</p>
-    </div>
+    </mat-card>
   </div>
 </section>

@@ -13,12 +13,12 @@ const routes: Routes = [
     path: '',
     component: NonAuthenticatedLayoutComponent,
     children: [
-      // {
-      //   path: '',
-      //   component: LandingPageComponent,
-      // },
       {
         path: '',
+        component: LandingPageComponent,
+      },
+      {
+        path: 'sectors',
         component: SectorsTilesGridComponent,
       },
       {
