@@ -7,7 +7,7 @@ import {ResourcePortal} from "../../models";
   templateUrl: './sectors-tiles-grid.component.html',
   styleUrls: ['./sectors-tiles-grid.component.scss']
 })
-export class SectorsTilesGridComponent {
+export class SectorsTilesGridComponent implements OnInit {
 
   public infoSectors = [
     {
@@ -62,4 +62,7 @@ export class SectorsTilesGridComponent {
               private active: ActivatedRoute) {
   }
 
+  ngOnInit() {
+    window.scroll(0, 0);
+  }
 }

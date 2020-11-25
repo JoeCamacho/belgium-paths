@@ -17,6 +17,7 @@ export class SectorListComponent implements OnInit {
 
   ngOnInit() {
     this.filteredDataResources = dataResources.dataResources.filter(resource => resource.sector === this.route.snapshot.params.sectorId);
+    window.scroll(0, 0);
   }
 
 }

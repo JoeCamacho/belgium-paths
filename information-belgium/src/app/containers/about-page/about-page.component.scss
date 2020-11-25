@@ -1,6 +1,23 @@
+.about-container {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  @media only screen and (max-width: 770px) {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 mat-card {
   padding: 50px;
   font-family: 'Mulish', sans-serif;
+  text-align: justify;
+
+   @media only screen and (max-width: 770px) {
+     text-align: left;
+   }
 
   p {
     font-size: 1.5rem;

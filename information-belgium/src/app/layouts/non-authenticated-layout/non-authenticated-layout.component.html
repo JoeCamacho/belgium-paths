@@ -1,10 +1,16 @@
 <mat-toolbar class="d-none d-lg-flex">
-  <img src="../../../assets/img/information.png" alt="Information icon" routerLink="/">
+  <img src="assets/img/map_belgium_tick_border.png" alt="Information icon" routerLink="/">
   <div class="right-nav">
-    <button mat-flat-button routerLinkActive="active" [routerLink]="['/sectors']">
+    <button mat-flat-button routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+            [routerLink]="['']">
+      Home
+    </button>
+    <button mat-flat-button routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+            [routerLink]="['/sectors']">
       Sectors
     </button>
-    <button mat-flat-button routerLinkActive="active" [routerLink]="['/about']">
+    <button mat-flat-button routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+            [routerLink]="['/about']">
       About
     </button>
     <!--    <button mat-flat-button routerLinkActive="active" [routerLink]="['/contact']">-->
@@ -15,7 +21,7 @@
 </mat-toolbar>
 
 <mat-toolbar class="d-flex d-lg-none">
-  <img src="../../../assets/img/information.png" alt="Information icon" routerLink="/">
+  <img src="assets/img/map_belgium_tick_border.png" alt="Information icon" routerLink="/">
 
   <div class="right-nav">
 
@@ -24,10 +30,16 @@
     </button>
 
     <mat-menu #userMenu="matMenu">
-      <button mat-menu-item routerLinkActive="active" [routerLink]="['/sectors']">
-        Sector
+      <button mat-menu-item routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+              [routerLink]="['']">
+        Home
       </button>
-      <button mat-menu-item routerLinkActive="active" [routerLink]="['/about']">
+      <button mat-menu-item routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+              [routerLink]="['/sectors']">
+        Sectors
+      </button>
+      <button mat-menu-item routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+              [routerLink]="['/about']">
         About
       </button>
       <!--      <button mat-menu-item routerLinkActive="active" [routerLink]="['/contact']">-->
