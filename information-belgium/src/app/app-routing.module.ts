@@ -52,16 +52,12 @@ const routes: Routes = [
       //   ]
       // },
       {
-        path: '',
+        path: 'sectors',
         component: SectorsLayoutComponent,
         children: [
           {
             path: '',
             pathMatch: 'full',
-            redirectTo: 'sectors'
-          },
-          {
-            path: 'sectors',
             component: SectorsTilesGridComponent,
           },
           {
