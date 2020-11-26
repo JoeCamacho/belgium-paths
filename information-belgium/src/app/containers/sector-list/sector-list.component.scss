@@ -1,8 +1,15 @@
 .sectors-lists-container {
-  padding: 100px;
+  padding: 50px;
 
   @media only screen and (max-width: 770px) {
     padding: 40px 20px;
+  }
+
+  .back-button {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
   }
 }
 
@@ -35,8 +42,17 @@ mat-card {
     flex-direction: row;
     font-family: 'Mulish', sans-serif;
 
+    @media only screen and (max-width: 770px) {
+      flex-direction: column;
+      text-align: center;
+    }
+
     .card-text {
       padding-left: 20px;
+
+      @media only screen and (max-width: 770px) {
+        text-align: center;
+      }
     }
 
     mat-card-content {
@@ -48,6 +64,11 @@ mat-card {
     width: 7%;
     height: auto;
     margin: 10px;
+
+    @media only screen and (max-width: 770px) {
+      width: 20%;
+      margin: auto;
+    }
   }
 }
 
