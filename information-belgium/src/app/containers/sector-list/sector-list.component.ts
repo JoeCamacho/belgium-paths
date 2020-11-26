@@ -11,6 +11,7 @@ import {ResourcePortal} from '../../models';
 export class SectorListComponent implements OnInit {
 
   public filteredDataResources: ResourcePortal[];
+  public firstDataResource: ResourcePortal;
 
   constructor(public route: ActivatedRoute) {
   }
@@ -18,6 +19,7 @@ export class SectorListComponent implements OnInit {
   ngOnInit() {
     this.filteredDataResources = dataResources.dataResources.filter(resource => resource.sector === this.route.snapshot.params.sectorId);
     window.scroll(0, 0);
+    this.firstDataResource = this.filteredDataResources[0];
   }
 
 }

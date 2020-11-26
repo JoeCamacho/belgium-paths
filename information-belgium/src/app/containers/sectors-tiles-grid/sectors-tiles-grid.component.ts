@@ -1,6 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute, Router} from "@angular/router";
-import {ResourcePortal} from "../../models";
 
 @Component({
   selector: 'app-area-tiles-grid',
@@ -58,8 +56,7 @@ export class SectorsTilesGridComponent implements OnInit {
   ];
 
 
-  constructor(private router: Router,
-              private active: ActivatedRoute) {
+  constructor() {
   }
 
   ngOnInit() {

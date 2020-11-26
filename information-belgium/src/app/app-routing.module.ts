@@ -7,6 +7,7 @@ import {
   SectorListComponent,
   SectorsTilesGridComponent
 } from './containers';
+import {SectorsLayoutComponent} from "./layouts/sectors-layout/sectors-layout.component";
 
 
 const routes: Routes = [
@@ -26,28 +27,52 @@ const routes: Routes = [
       //   path: 'contact',
       //   component: ContactPageComponent,
       // },
+      // {
+      //   path: 'sectors',
+      //   component: SectorsTilesGridComponent,
+      //   // children: [
+      //   //   {
+      //   //     path: ':sectorId',
+      //   //     children: [
+      //   //       {
+      //   //         path: '',
+      //   //         component: SectorListComponent,
+      //   //       }
+      //   //     ]
+      //   //   }
+      //   // ]
+      // },
+      // {
+      //   path: ':sectorId',
+      //   children: [
+      //     {
+      //       path: '',
+      //       component: SectorListComponent,
+      //     }
+      //   ]
+      // },
       {
-        path: 'sectors',
-        component: SectorsTilesGridComponent,
-        // children: [
-        //   {
-        //     path: ':sectorId',
-        //     children: [
-        //       {
-        //         path: '',
-        //         component: SectorListComponent,
-        //       }
-        //     ]
-        //   }
-        // ]
-      },
-      {
-        path: ':sectorId',
+        path: '',
+        component: SectorsLayoutComponent,
         children: [
           {
             path: '',
-            component: SectorListComponent,
-          }
+            pathMatch: 'full',
+            redirectTo: 'sectors'
+          },
+          {
+            path: 'sectors',
+            component: SectorsTilesGridComponent,
+          },
+          {
+            path: ':sectorId',
+            children: [
+              {
+                path: '',
+                component: SectorListComponent,
+              }
+            ]
+          },
         ]
       },
     ]

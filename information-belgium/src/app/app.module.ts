@@ -19,6 +19,7 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import {ReactiveFormsModule} from "@angular/forms";
+import { SectorsLayoutComponent } from './layouts/sectors-layout/sectors-layout.component';
 
 const MaterialModules = [
   MatIconModule,
@@ -47,6 +48,7 @@ const MaterialModules = [
     ...Components,
     ...Containers,
     ContactFormComponent,
+    SectorsLayoutComponent,
   ],
   bootstrap: [AppComponent]
 })

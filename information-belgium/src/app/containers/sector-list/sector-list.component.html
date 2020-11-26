@@ -1,4 +1,7 @@
-<section class="container sectors-lists-container" style="">
+<section class="container sectors-lists-container">
+  <div>
+    <h2>{{firstDataResource.sectorName}}</h2>
+  </div>
   <mat-card *ngFor="let dataResource of filteredDataResources">
     <a href="{{dataResource.url}}" class="card-content"
        target="_blank" rel="noreferrer noopener">
@@ -10,3 +13,4 @@
     </a>
   </mat-card>
 </section>
+

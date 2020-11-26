@@ -2,6 +2,7 @@ export const dataResources = [
   {
     id: '1',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Immigration law & private international law',
     description: 'Portal from the Agency Integration and Inburgering',
@@ -10,6 +11,7 @@ export const dataResources = [
   {
     id: '2',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Residence documents',
     description: 'General overview of the all the belgian redicence documents',
@@ -18,6 +20,7 @@ export const dataResources = [
   {
     id: '3',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Right to travel',
     description: 'General overview of travel in Belgium and Europe',
@@ -26,6 +29,7 @@ export const dataResources = [
   {
     id: '4',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Work in Flanders',
     description: 'Information about working in Flanders provided by the Flemish govermet',
@@ -34,6 +38,7 @@ export const dataResources = [
   {
     id: '5',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Foreign Affairs service',
     description: 'Belgian goverment office that ensures the management of the migration flows',
@@ -42,6 +47,7 @@ export const dataResources = [
   {
     id: '6',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Belgian police',
     description: 'Official website of the Belgian police force',
@@ -50,6 +56,7 @@ export const dataResources = [
   {
     id: '7',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Commissariaat - Generaal voor Vluchtelingen en Staatlozen',
     description: 'Commissioner General for Refugees and Stateless Persons',
@@ -58,6 +65,7 @@ export const dataResources = [
   {
     id: '8',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Centrum Algemeen Welzijnswerk (CAW)',
     description: 'General Welfare Work (CAW)',
@@ -66,6 +74,7 @@ export const dataResources = [
   {
     id: '9',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Raad voor Vreemdelingenbetwistingen',
     description: 'Conseil du Contentieux des Etrangers ',
@@ -74,6 +83,7 @@ export const dataResources = [
   {
     id: '10',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Apply for belgian nationality',
     description: 'General information about how to apply for the Belgian nationality provided by the non-profit Objectief',
@@ -82,6 +92,7 @@ export const dataResources = [
   {
     id: '11',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Belgian nationality Agency Integration and Inburgering',
     description: 'General information about how to apply for the Belgian nationality provided by',
@@ -90,6 +101,7 @@ export const dataResources = [
   {
     id: '12',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Myria',
     description: 'Independent centers that help and guide immigrants',
@@ -98,6 +110,7 @@ export const dataResources = [
   {
     id: '13',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'eID',
     description: 'Information on eID software for electronic identity',
@@ -106,6 +119,7 @@ export const dataResources = [
   {
     id: '14',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Itsme',
     description: 'App to replace the eID software',
@@ -114,6 +128,7 @@ export const dataResources = [
   {
     id: '15',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'My Social Security',
     description: 'A website that groups most of social security institutions',
@@ -122,6 +137,7 @@ export const dataResources = [
   {
     id: '16',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'My e-box',
     description: 'Portal to consult oficial documents',
@@ -130,6 +146,7 @@ export const dataResources = [
   {
     id: '17',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'My career',
     description: 'Portal to get an overview of your career in Belgium',
@@ -138,6 +155,7 @@ export const dataResources = [
   {
     id: '18',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'My pension',
     description: 'Consult your pension file',
@@ -146,6 +164,7 @@ export const dataResources = [
   {
     id: '19',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Career break',
     description: 'Consult your career break and time credit dossier, or make a new application',
@@ -154,6 +173,7 @@ export const dataResources = [
   {
     id: '20',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Break@work',
     description: 'How many months of career break, time credit or thematic leave are you still entitled to?',
@@ -162,6 +182,7 @@ export const dataResources = [
   {
     id: '21',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Working as student',
     description: 'Working as student',
@@ -170,6 +191,7 @@ export const dataResources = [
   {
     id: '22',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Vlaanderen',
     description: 'Portal of the Government of Flanders',
@@ -178,6 +200,7 @@ export const dataResources = [
   {
     id: '23',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Brussels',
     description: 'Portal of the Government of Brussels',
@@ -186,6 +209,7 @@ export const dataResources = [
   {
     id: '24',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Wallonie',
     description: 'Portal of the Government of Wallonia',
@@ -194,6 +218,7 @@ export const dataResources = [
   {
     id: '25',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Federal goverment of Belgium',
     description: 'Portal of the Government of Belgium',
@@ -202,6 +227,7 @@ export const dataResources = [
   {
     id: '26',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Myminfin',
     description: 'Portal for taxes',
@@ -210,6 +236,7 @@ export const dataResources = [
   {
     id: '27',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Police e-loket',
     description: 'Online version of your local police office',
@@ -218,6 +245,7 @@ export const dataResources = [
   {
     id: '28',
     sector: 'documents',
+    sectorName: 'Documents',
     sectorImage: 'documents.svg',
     name: 'Studietoelagen',
     description: 'Study grands for higher education Flanders',
@@ -226,6 +254,7 @@ export const dataResources = [
   {
     id: '29',
     sector: 'healthcare',
+    sectorName: 'Healthcare',
     sectorImage: 'healthcare.svg',
     name: 'Healthviewer',
     description: 'HealthViewer is a software application to allow the citizen to access your healthcare data',
@@ -234,6 +263,7 @@ export const dataResources = [
   {
     id: '30',
     sector: 'healthcare',
+    sectorName: 'Healthcare',
     sectorImage: 'healthcare.svg',
     name: 'RIZIV / INAMI',
     description: 'Find healthcare providers',
@@ -242,6 +272,7 @@ export const dataResources = [
   {
     id: '31',
     sector: 'healthcare',
+    sectorName: 'Healthcare',
     sectorImage: 'healthcare.svg',
     name: 'Mediwacht',
     description: 'Find healthcare providers in Flanders',
@@ -250,6 +281,7 @@ export const dataResources = [
   {
     id: '32',
     sector: 'healthcare',
+    sectorName: 'Healthcare',
     sectorImage: 'healthcare.svg',
     name: 'Verbond Vlaams tandartsen',
     description: 'Find dentist in Flanders',
@@ -258,6 +290,7 @@ export const dataResources = [
   {
     id: '33',
     sector: 'healthcare',
+    sectorName: 'Healthcare',
     sectorImage: 'healthcare.svg',
     name: 'Apotheek',
     description: 'Find pharmacies',
@@ -266,6 +299,7 @@ export const dataResources = [
   {
     id: '34',
     sector: 'healthcare',
+    sectorName: 'Healthcare',
     sectorImage: 'healthcare.svg',
     name: 'Vereniging van Wijkgezondheidscentra',
     description: 'The Association of District Health Centers wishes to contribute to accessible, future-oriented and high-quality healthcare in Flanders and Brussels.',
@@ -274,6 +308,7 @@ export const dataResources = [
   {
     id: '35',
     sector: 'healthcare',
+    sectorName: 'Healthcare',
     sectorImage: 'healthcare.svg',
     name: 'Zanzu',
     description: 'Portal about sexual health',
@@ -282,6 +317,7 @@ export const dataResources = [
   {
     id: '36',
     sector: 'healthcare',
+    sectorName: 'Healthcare',
     sectorImage: 'healthcare.svg',
     name: 'Federal public service on eutanasia',
     description: 'Legal base in Belgium about eutanasia',
@@ -290,6 +326,7 @@ export const dataResources = [
   {
     id: '37',
     sector: 'healthcare',
+    sectorName: 'Healthcare',
     sectorImage: 'healthcare.svg',
     name: 'Christelijke Mutualiteiten',
     description: 'Is a Belgian health insurance fund that groups nineteen regional health insurance funds.',
@@ -298,6 +335,7 @@ export const dataResources = [
   {
     id: '38',
     sector: 'healthcare',
+    sectorName: 'Healthcare',
     sectorImage: 'healthcare.svg',
     name: 'List of health insurance funds in Belgium',
     description: 'This directory contains the list and contact details of the health insurance funds of Belgium, of the regional services and of the regional medical centers operating under the compulsory insurance for health care and benefits.',
@@ -306,6 +344,7 @@ export const dataResources = [
   {
     id: '39',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'Portal of education on Flanders',
     description: 'Portal of education from the Flemish government',
@@ -314,6 +353,7 @@ export const dataResources = [
   {
     id: '40',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'Van basis naar Secundair',
     description: 'Portal to help students in Flanders to find the right direction into secondary studies',
@@ -322,6 +362,7 @@ export const dataResources = [
   {
     id: '41',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'Onderwijskiezer',
     description: 'Portal with information about the options in education',
@@ -330,6 +371,7 @@ export const dataResources = [
   {
     id: '42',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'Huizenvanhetkind',
     description: 'Everything related to parenting and growing up in Flanders',
@@ -338,6 +380,7 @@ export const dataResources = [
   {
     id: '43',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'JAC',
     description: 'JAC is the youth department of CAW, a social organization helping people to solve questions and personal, financial, administrative or judicial problems',
@@ -346,6 +389,7 @@ export const dataResources = [
   {
     id: '44',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'Awel',
     description: 'Awel listens to all children and young people with a question, a story, a problem:',
@@ -354,6 +398,7 @@ export const dataResources = [
   {
     id: '45',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'CLB',
     description: 'Student Guidance Center of the flemish government',
@@ -362,6 +407,7 @@ export const dataResources = [
   {
     id: '46',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'Klasse',
     description: 'Website with some good background materials on education and schools',
@@ -370,6 +416,7 @@ export const dataResources = [
   {
     id: '47',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'VDAB training',
     description: 'Flemish Employment and Vocational Training Service provides training in dutch for job seakers',
@@ -378,6 +425,7 @@ export const dataResources = [
   {
     id: '48',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'Syntra',
     description: 'SYNTRA provides practice-oriented courses for enterprising people',
@@ -386,6 +434,7 @@ export const dataResources = [
   {
     id: '49',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'Vormingplus',
     description: 'Thirteen pluralistic socio-cultural organizations active in as many regions in Flanders and Brussels. Provide professional courses, only short term courses and workshops on an informal way, rather as a hobby',
@@ -394,6 +443,7 @@ export const dataResources = [
   {
     id: '50',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'Wisper',
     description: 'Leuven based creative courses and workshops',
@@ -402,6 +452,7 @@ export const dataResources = [
   {
     id: '51',
     sector: 'education',
+    sectorName: 'Education',
     sectorImage: 'education.svg',
     name: 'Cafecombinne',
     description: 'Meeting to practice dutch',
@@ -410,6 +461,7 @@ export const dataResources = [
   {
     id: '52',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'NMBS / SNCB',
     description: 'Belgian train company',
@@ -418,6 +470,7 @@ export const dataResources = [
   {
     id: '53',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'De Lijn',
     description: 'Company run by the Flemish government in Belgium to provide public transportation',
@@ -426,6 +479,7 @@ export const dataResources = [
   {
     id: '54',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'TEC',
     description: 'Transport operator of Wallonia, formerly Société Régionale Wallonne du Transportt',
@@ -434,6 +488,7 @@ export const dataResources = [
   {
     id: '55',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'STIB',
     description: 'The Brussels Intercommunal Transport Company is the local public transport operator in Brussels',
@@ -442,6 +497,7 @@ export const dataResources = [
   {
     id: '56',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'Goca',
     description: 'Information about car control and driving license',
@@ -450,6 +506,7 @@ export const dataResources = [
   {
     id: '57',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'Foreign drivers licenses',
     description: 'Official information about foreign driving licences',
@@ -458,6 +515,7 @@ export const dataResources = [
   {
     id: '58',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'Mijn rijbewijsb',
     description: 'Preparation for the driving test in dutch',
@@ -466,6 +524,7 @@ export const dataResources = [
   {
     id: '59',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'Rijbewijzer',
     description: 'Information about driver training in Flanders',
@@ -474,6 +533,7 @@ export const dataResources = [
   {
     id: '60',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'VAB driving school',
     description: 'driving school informatio',
@@ -482,6 +542,7 @@ export const dataResources = [
   {
     id: '61',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'Gratis rijbewijs online',
     description: 'Website to practice for the driving exam',
@@ -490,6 +551,7 @@ export const dataResources = [
   {
     id: '62',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'Wegcode',
     description: 'Updated traffic behavior rules for drivers of priority vehicles',
@@ -498,6 +560,7 @@ export const dataResources = [
   {
     id: '63',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'Mobilit Belgium',
     description: 'Goverment office in charge of prepare, implement and support mobility and transport policy ',
@@ -506,6 +569,7 @@ export const dataResources = [
   {
     id: '64',
     sector: 'transportation',
+    sectorName: 'Transportation',
     sectorImage: 'transportation.svg',
     name: 'Car-pass',
     description: 'Is the non-profit organization charged by the legislator with a task of public interest i.e. to protect buyers and to promote the fair trade in used vehicles by combating fraud with the odometer',
@@ -514,6 +578,7 @@ export const dataResources = [
   {
     id: '65',
     sector: 'politics',
+    sectorName: 'Politics',
     sectorImage: 'politics.svg',
     name: 'Belgian federal Parliament',
     description: 'Belgian federal Parliament',
@@ -522,6 +587,7 @@ export const dataResources = [
   {
     id: '66',
     sector: 'politics',
+    sectorName: 'Politics',
     sectorImage: 'politics.svg',
     name: 'Vlaams parlement',
     description: 'Flemish Parliament',
@@ -530,6 +596,7 @@ export const dataResources = [
   {
     id: '67',
     sector: 'politics',
+    sectorName: 'Politics',
     sectorImage: 'politics.svg',
     name: 'Parlement de Wallonie.',
     description: 'Wallonian Parliament',
@@ -538,6 +605,7 @@ export const dataResources = [
   {
     id: '68',
     sector: 'politics',
+    sectorName: 'Politics',
     sectorImage: 'politics.svg',
     name: 'European Parliament',
     description: 'The European Parliament is one of three legislative branches of the European Union and one of its seven institutions.',
@@ -546,6 +614,7 @@ export const dataResources = [
   {
     id: '69',
     sector: 'museum',
+    sectorName: 'Museum',
     sectorImage: 'museum.svg',
     name: 'African museum',
     description: 'The Royal Museum for Central Africa or RMCA, colloquially known as the Africa Museum, is an ethnography and natural history museum situated in Tervuren in Flemish Brabant, Belgium, just outside Brussels',
@@ -554,6 +623,7 @@ export const dataResources = [
   {
     id: '70',
     sector: 'museum',
+    sectorName: 'Museum',
     sectorImage: 'museum.svg',
     name: 'In Flanders fields',
     description: 'A museum in Ypres, Belgium, dedicated to the study of the First World War.',
@@ -562,6 +632,7 @@ export const dataResources = [
   {
     id: '71',
     sector: 'museum',
+    sectorName: 'Museum',
     sectorImage: 'museum.svg',
     name: 'Kazerne Dossin',
     description: 'Memorial, Museum and Documentation Centre on the Holocaust and Human Rights (Mechelen).',
@@ -570,6 +641,7 @@ export const dataResources = [
   {
     id: '72',
     sector: 'museum',
+    sectorName: 'Museum',
     sectorImage: 'museum.svg',
     name: 'Parlamentarium',
     description: 'Is the visitors centre of the European Parliament and is located in the Parliaments Espace Léopold complex in Brussels.',
@@ -578,6 +650,7 @@ export const dataResources = [
   {
     id: '73',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Vlaams huurdersplatform',
     description: 'Is the Flemish Tenants Platform (VHP) that supports the activities of the tenants unions and the network of social tenants',
@@ -586,6 +659,7 @@ export const dataResources = [
   {
     id: '74',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Woning huur vlanderen',
     description: 'Information on housing rent from the Flemish government',
@@ -594,6 +668,7 @@ export const dataResources = [
   {
     id: '75',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Immoweb',
     description: 'Website to find real estate for sale & for rent in Belgium.',
@@ -602,6 +677,7 @@ export const dataResources = [
   {
     id: '76',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Zimmo',
     description: 'Website for real estate ads for sale and for rent in Belgium.',
@@ -610,6 +686,7 @@ export const dataResources = [
   {
     id: '77',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Logic immo',
     description: 'Is a real estate classifieds website dedicated to Belgium',
@@ -618,6 +695,7 @@ export const dataResources = [
   {
     id: '78',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Biddit',
     description: 'Website to buy or sell property online with the advice of your notary',
@@ -626,6 +704,7 @@ export const dataResources = [
   {
     id: '79',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'SW Leuven',
     description: 'Website to find social houses in Leuven',
@@ -634,6 +713,7 @@ export const dataResources = [
   {
     id: '80',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Immothekerfinotheker',
     description: 'Provides financial advice for buying a house or investing',
@@ -642,6 +722,7 @@ export const dataResources = [
   {
     id: '81',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Hypotheekwinkel',
     description: 'Compare bank loans for mortgage',
@@ -650,6 +731,7 @@ export const dataResources = [
   {
     id: '82',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Energiesparen',
     description: 'Is an official website of the Flemish government with useful information about saving energy',
@@ -658,6 +740,7 @@ export const dataResources = [
   {
     id: '83',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'EPC',
     description: 'Official information about Energy Performance Certificates',
@@ -666,6 +749,7 @@ export const dataResources = [
   {
     id: '84',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Mobiscore',
     description: 'Helps you to discover how a (future) neighborhood scores and how accessible important facilities are on foot or by bicycle',
@@ -674,6 +758,7 @@ export const dataResources = [
   {
     id: '85',
     sector: 'housing',
+    sectorName: 'Housing',
     sectorImage: 'housing.svg',
     name: 'Verzekering Gewaarborgd Wonen',
     description: 'Official information on the free Guaranteed Living Insurance that helps to pay off your mortgage loan if you fall ill or lose your job',
@@ -682,6 +767,7 @@ export const dataResources = [
   {
     id: '86',
     sector: 'public-utilities',
+    sectorName: 'Public utilities',
     sectorImage: 'public-utilities.svg',
     name: 'Fostplus',
     description: 'Is responsible for promoting, coordinating and financing the selective collecting, sorting and recycling of household packaging waste in Belgium.',
@@ -690,6 +776,7 @@ export const dataResources = [
   {
     id: '87',
     sector: 'public-utilities',
+    sectorName: 'Public utilities',
     sectorImage: 'public-utilities.svg',
     name: 'Bettersorting',
     description: 'Information on sorting garbage',
@@ -698,6 +785,7 @@ export const dataResources = [
   {
     id: '88',
     sector: 'public-utilities',
+    sectorName: 'Public utilities',
     sectorImage: 'public-utilities.svg',
     name: 'De kringwinkel',
     description: 'Thrift store in Flanders with several locations',
@@ -706,6 +794,7 @@ export const dataResources = [
   {
     id: '89',
     sector: 'public-utilities',
+    sectorName: 'Public utilities',
     sectorImage: 'public-utilities.svg',
     name: 'Aanbieders',
     description: 'Gives an overview on energy, telecom and mobile services.',
@@ -714,6 +803,7 @@ export const dataResources = [
   {
     id: '90',
     sector: 'public-utilities',
+    sectorName: 'Public utilities',
     sectorImage: 'public-utilities.svg',
     name: 'Vreg',
     description: 'Independent authority of the Flemish energy market',
@@ -722,6 +812,7 @@ export const dataResources = [
   {
     id: '91',
     sector: 'public-utilities',
+    sectorName: 'Public utilities',
     sectorImage: 'public-utilities.svg',
     name: 'Spaargids',
     description: 'Help you to find savings accounts, savings bonds, term accounts and other financial products',
@@ -730,6 +821,7 @@ export const dataResources = [
   {
     id: '92',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'Unizo',
     description: 'Entrepreneurial organization in Flanders and Brussels',
@@ -738,6 +830,7 @@ export const dataResources = [
   {
     id: '93',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'Voka',
     description: 'Flemish network of companies.',
@@ -746,6 +839,7 @@ export const dataResources = [
   {
     id: '94',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'Flanders Innovation & Entrepreneurship ',
     description: 'Is the contact point for entrepreneurs in Flanders. Encourage and support innovation and entrepreneurship.',
@@ -754,6 +848,7 @@ export const dataResources = [
   {
     id: '95',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'RSVZ / INASTI',
     description: 'National Institute for the Social Insurance of the Self-Employed',
@@ -762,6 +857,7 @@ export const dataResources = [
   {
     id: '96',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'Dyzo',
     description: 'An organisation that helps entrepreneurs in case of financial difficulties',
@@ -770,6 +866,7 @@ export const dataResources = [
   {
     id: '97',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'Acerta',
     description: 'Information about starting a business from Acerta',
@@ -778,6 +875,7 @@ export const dataResources = [
   {
     id: '98',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'Securex - Start business',
     description: 'Information about starting a business from Securex',
@@ -786,6 +884,7 @@ export const dataResources = [
   {
     id: '99',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'Kunstenloket',
     description: 'Business support for the culture sector',
@@ -794,6 +893,7 @@ export const dataResources = [
   {
     id: '100',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'Project AZO',
     description: 'Support for Foreign-language Self-Employed Entrepreneur',
@@ -802,6 +902,7 @@ export const dataResources = [
   {
     id: '101',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'Microstart',
     description: 'Offers professional loan, free training and coaching. They give support to create your business.',
@@ -810,6 +911,7 @@ export const dataResources = [
   {
     id: '102',
     sector: 'start-business',
+    sectorName: 'Start a business',
     sectorImage: 'start-business.svg',
     name: 'PMVZ',
     description: 'Apply for a starting business loan',
