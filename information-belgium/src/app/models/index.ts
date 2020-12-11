@@ -1,8 +1,8 @@
 export interface ResourcePortal {
   id: string;
-  sector: string;
-  sectorName: string;
-  sectorImage: string;
+  category: string;
+  categoryName: string;
+  categoryImage: string;
   name: string;
   description: string;
   url: string;

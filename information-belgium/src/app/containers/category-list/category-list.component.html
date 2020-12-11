@@ -1,10 +1,10 @@
-<section class="container sectors-lists-container">
+<section class="container categories-lists-container">
   <a (click)="back()" class="back-button"><p>< Back</p></a>
-  <h2>{{firstDataResource.sectorName}}</h2>
+  <h2>{{firstDataResource.categoryName}}</h2>
   <mat-card *ngFor="let dataResource of filteredDataResources">
     <a href="{{dataResource.url}}" class="card-content"
        target="_blank" rel="noreferrer noopener">
-      <img mat-card-image src="assets/img/tile-icons/{{dataResource.sectorImage}}" alt="sector icon">
+      <img mat-card-image src="assets/img/tile-icons/{{dataResource.categoryImage}}" alt="Category icon">
       <div class="card-text">
         <mat-card-title>{{dataResource.name}}</mat-card-title>
         <mat-card-content>{{dataResource.description}}</mat-card-content>

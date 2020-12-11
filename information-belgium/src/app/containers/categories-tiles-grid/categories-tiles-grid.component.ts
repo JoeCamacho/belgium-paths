@@ -1,56 +1,56 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-area-tiles-grid',
-  templateUrl: './sectors-tiles-grid.component.html',
-  styleUrls: ['./sectors-tiles-grid.component.scss']
+  selector: 'app-categories-tiles-grid',
+  templateUrl: './categories-tiles-grid.component.html',
+  styleUrls: ['./categories-tiles-grid.component.scss']
 })
-export class SectorsTilesGridComponent implements OnInit {
+export class CategoriesTilesGridComponent implements OnInit {
 
-  public infoSectors = [
+  public infoCategories = [
     {
       id: 'documents',
-      sector: 'DOCUMENTS',
+      category: 'DOCUMENTS',
       image: 'documents.svg'
     },
     {
       id: 'healthcare',
-      sector: 'HEALTHCARE',
+      category: 'HEALTHCARE',
       image: 'healthcare.svg'
     },
     {
       id: 'education',
-      sector: 'EDUCATION',
+      category: 'EDUCATION',
       image: 'education.svg'
     },
     {
       id: 'transportation',
-      sector: 'TRANSPORTATION',
+      category: 'TRANSPORTATION',
       image: 'transportation.svg'
     },
     {
       id: 'politics',
-      sector: 'POLITICS',
+      category: 'POLITICS',
       image: 'politics.svg'
     },
     {
       id: 'museum',
-      sector: 'MUSEUM',
+      category: 'MUSEUM',
       image: 'museum.svg'
     },
     {
       id: 'housing',
-      sector: 'HOUSING',
+      category: 'HOUSING',
       image: 'housing.svg'
     },
     {
       id: 'public-utilities',
-      sector: 'PUBLIC UTILITIES',
+      category: 'PUBLIC UTILITIES',
       image: 'public-utilities.svg'
     },
     {
       id: 'start-business',
-      sector: 'START A BUSINESS',
+      category: 'START A BUSINESS',
       image: 'start-business.svg'
     },
   ];

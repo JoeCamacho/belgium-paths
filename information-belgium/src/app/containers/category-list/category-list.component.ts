@@ -5,11 +5,11 @@ import {ResourcePortal} from '../../models';
 import {Location} from '@angular/common';
 
 @Component({
-  selector: 'app-sector-list',
-  templateUrl: './sector-list.component.html',
-  styleUrls: ['./sector-list.component.scss']
+  selector: 'app-category-list',
+  templateUrl: './category-list.component.html',
+  styleUrls: ['./category-list.component.scss']
 })
-export class SectorListComponent implements OnInit {
+export class CategoryListComponent implements OnInit {
 
   public filteredDataResources: ResourcePortal[];
   public firstDataResource: ResourcePortal;
@@ -19,7 +19,7 @@ export class SectorListComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.filteredDataResources = dataResources.dataResources.filter(resource => resource.sector === this.route.snapshot.params.sectorId);
+    this.filteredDataResources = dataResources.dataResources.filter(resource => resource.category === this.route.snapshot.params.categoryId);
     window.scroll(0, 0);
     this.firstDataResource = this.filteredDataResources[0];
   }

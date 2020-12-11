@@ -1,0 +1,8 @@
+<section class="container categories-grid-container">
+  <div class="grid">
+    <mat-card *ngFor="let infoCategory of infoCategories" [routerLink]="['..', 'categories', infoCategory.id]">
+      <img src="assets/img/tile-icons/{{infoCategory.image}}" alt="{{infoCategory.category}} icon">
+      <p>{{infoCategory.category}}</p>
+    </mat-card>
+  </div>
+</section>

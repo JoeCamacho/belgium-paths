@@ -3,11 +3,12 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {NonAuthenticatedLayoutComponent} from './layouts/non-authenticated-layout/non-authenticated-layout.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {ReactiveFormsModule} from '@angular/forms';
 
-import {Containers} from './containers';
 import {Components} from './components';
+import {Containers} from './containers';
+import {Layouts} from './layouts';
 
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
@@ -15,11 +16,9 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatCardModule} from '@angular/material/card';
-import { ContactFormComponent } from './components/contact-form/contact-form.component';
-import {MatFormFieldModule} from "@angular/material/form-field";
-import {MatInputModule} from "@angular/material/input";
-import {ReactiveFormsModule} from "@angular/forms";
-import { SectorsLayoutComponent } from './layouts/sectors-layout/sectors-layout.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
 
 const MaterialModules = [
   MatIconModule,
@@ -28,7 +27,8 @@ const MaterialModules = [
   MatToolbarModule,
   MatExpansionModule,
   MatCardModule,
-
+  MatFormFieldModule,
+  MatInputModule,
 ];
 
 @NgModule({
@@ -36,19 +36,15 @@ const MaterialModules = [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
 
     ...MaterialModules,
-    MatFormFieldModule,
-    MatInputModule,
-    ReactiveFormsModule,
   ],
   declarations: [
     AppComponent,
-    NonAuthenticatedLayoutComponent,
     ...Components,
     ...Containers,
-    ContactFormComponent,
-    SectorsLayoutComponent,
+    ...Layouts,
   ],
   bootstrap: [AppComponent]
 })

@@ -2,12 +2,10 @@ import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {NonAuthenticatedLayoutComponent} from './layouts/non-authenticated-layout/non-authenticated-layout.component';
 import {
-  AboutPageComponent, ContactPageComponent,
+  AboutPageComponent, CategoriesTilesGridComponent, CategoryListComponent, ContactPageComponent,
   LandingPageComponent,
-  SectorListComponent,
-  SectorsTilesGridComponent
 } from './containers';
-import {SectorsLayoutComponent} from "./layouts/sectors-layout/sectors-layout.component";
+import {CategoriesLayoutComponent} from './layouts/categories-layout/categories-layout.component';
 
 
 const routes: Routes = [
@@ -23,49 +21,21 @@ const routes: Routes = [
         path: 'about',
         component: AboutPageComponent,
       },
-      // {
-      //   path: 'contact',
-      //   component: ContactPageComponent,
-      // },
-      // {
-      //   path: 'sectors',
-      //   component: SectorsTilesGridComponent,
-      //   // children: [
-      //   //   {
-      //   //     path: ':sectorId',
-      //   //     children: [
-      //   //       {
-      //   //         path: '',
-      //   //         component: SectorListComponent,
-      //   //       }
-      //   //     ]
-      //   //   }
-      //   // ]
-      // },
-      // {
-      //   path: ':sectorId',
-      //   children: [
-      //     {
-      //       path: '',
-      //       component: SectorListComponent,
-      //     }
-      //   ]
-      // },
       {
-        path: 'sectors',
-        component: SectorsLayoutComponent,
+        path: 'categories',
+        component: CategoriesLayoutComponent,
         children: [
           {
             path: '',
             pathMatch: 'full',
-            component: SectorsTilesGridComponent,
+            component: CategoriesTilesGridComponent,
           },
           {
-            path: ':sectorId',
+            path: ':categoryId',
             children: [
               {
                 path: '',
-                component: SectorListComponent,
+                component: CategoryListComponent,
               }
             ]
           },
