@@ -9,14 +9,9 @@ export class CategoriesTilesGridComponent implements OnInit {
 
   public infoCategories = [
     {
-      id: 'documents',
-      category: 'DOCUMENTS',
-      image: 'documents.svg'
-    },
-    {
-      id: 'healthcare',
-      category: 'HEALTHCARE',
-      image: 'healthcare.svg'
+      id: 'administration',
+      category: 'ADMINISTRATION',
+      image: 'administration.svg'
     },
     {
       id: 'education',
@@ -24,14 +19,14 @@ export class CategoriesTilesGridComponent implements OnInit {
       image: 'education.svg'
     },
     {
-      id: 'transportation',
-      category: 'TRANSPORTATION',
-      image: 'transportation.svg'
+      id: 'healthcare',
+      category: 'HEALTHCARE',
+      image: 'healthcare.svg'
     },
     {
-      id: 'politics',
-      category: 'POLITICS',
-      image: 'politics.svg'
+      id: 'housing',
+      category: 'HOUSING',
+      image: 'housing.svg'
     },
     {
       id: 'museum',
@@ -39,9 +34,9 @@ export class CategoriesTilesGridComponent implements OnInit {
       image: 'museum.svg'
     },
     {
-      id: 'housing',
-      category: 'HOUSING',
-      image: 'housing.svg'
+      id: 'politics',
+      category: 'POLITICS',
+      image: 'politics.svg'
     },
     {
       id: 'public-utilities',
@@ -52,6 +47,11 @@ export class CategoriesTilesGridComponent implements OnInit {
       id: 'start-business',
       category: 'START A BUSINESS',
       image: 'start-business.svg'
+    },
+    {
+      id: 'transportation',
+      category: 'TRANSPORTATION',
+      image: 'transportation.svg'
     },
   ];
 
