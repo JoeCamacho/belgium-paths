@@ -29,9 +29,9 @@ export class CategoriesTilesGridComponent implements OnInit {
       image: 'housing.svg'
     },
     {
-      id: 'museum',
-      category: 'MUSEUM',
-      image: 'museum.svg'
+      id: 'culture',
+      category: 'CULTURE',
+      image: 'culture.svg'
     },
     {
       id: 'politics',

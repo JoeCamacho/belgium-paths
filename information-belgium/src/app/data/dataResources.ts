@@ -613,36 +613,36 @@ export const dataResources = [
   },
   {
     id: '69',
-    category: 'museum',
-    categoryName: 'Museum',
-    categoryImage: 'museum.svg',
+    category: 'culture',
+    categoryName: 'Culture',
+    categoryImage: 'culture.svg',
     name: 'African museum',
     description: 'The Royal Museum for Central Africa or RMCA, colloquially known as the Africa Museum, is an ethnography and natural history museum situated in Tervuren in Flemish Brabant, Belgium, just outside Brussels',
     url: 'https://www.africamuseum.be/en'
   },
   {
     id: '70',
-    category: 'museum',
-    categoryName: 'Museum',
-    categoryImage: 'museum.svg',
+    category: 'culture',
+    categoryName: 'Culture',
+    categoryImage: 'culture.svg',
     name: 'In Flanders fields',
     description: 'A museum in Ypres, Belgium, dedicated to the study of the First World War.',
     url: 'https://www.inflandersfields.be/'
   },
   {
     id: '71',
-    category: 'museum',
-    categoryName: 'Museum',
-    categoryImage: 'museum.svg',
+    category: 'culture',
+    categoryName: 'Culture',
+    categoryImage: 'culture.svg',
     name: 'Kazerne Dossin',
     description: 'Memorial, Museum and Documentation Centre on the Holocaust and Human Rights (Mechelen).',
     url: 'https://www.kazernedossin.eu/EN/'
   },
   {
     id: '72',
-    category: 'museum',
-    categoryName: 'Museum',
-    categoryImage: 'museum.svg',
+    category: 'culture',
+    categoryName: 'Culture',
+    categoryImage: 'culture.svg',
     name: 'Parlamentarium',
     description: 'Is the visitors centre of the European Parliament and is located in the Parliaments Espace Léopold complex in Brussels.',
     url: 'https://www.europarl.europa.eu/visiting/en/visitor-offer/brussels/parlamentarium'

@@ -12,7 +12,6 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 1rem;
 
-
   > mat-card {
     background: #3CC47C;
     padding: 1rem;
@@ -39,8 +38,18 @@
     img {
       width: 70%;
       height: auto;
-      //object-fit: contain;
+      object-fit: contain;
       grid-area: 1 / 1 / 2 / 2;
+
+      @media only screen and (max-width: 770px) {
+        width: 60%;
+      }
+    }
+
+    p {
+      @media only screen and (max-width: 770px) {
+        font-size: 22px;
+      }
     }
   }
 }
