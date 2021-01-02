@@ -5,7 +5,7 @@ export const dataResources = [
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
     name: 'Immigration law & private international law',
-    description: 'Portal from the Agency Integration and Inburgering',
+    description: 'Portal from the Agency Integration and Inburgering, that provides information on some of topics like: immigration law and international family law, social interpreting certification and trainings',
     url: 'https://www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht'
   },
   {
@@ -464,7 +464,7 @@ export const dataResources = [
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
     name: 'NMBS / SNCB',
-    description: 'Belgian train company',
+    description: 'Official website of the National Railway Company of Belgium',
     url: 'http://www.belgiantrain.be/'
   },
   {
@@ -473,7 +473,7 @@ export const dataResources = [
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
     name: 'De Lijn',
-    description: 'Company run by the Flemish government in Belgium to provide public transportation',
+    description: 'Vlaamse Vervoersmaatschappij De Lijn, usually known as De Lijn, is a company run by the Flemish government in Belgium to provide public transportation',
     url: 'https://www.delijn.be/en/'
   },
   {
@@ -482,7 +482,7 @@ export const dataResources = [
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
     name: 'TEC',
-    description: 'Transport operator of Wallonia, formerly Société Régionale Wallonne du Transportt',
+    description: 'TEC – which stands for "Transport En Commun", is the public transport operator in the Walloon region of Belgium',
     url: 'https://www.letec.be/#/'
   },
   {
@@ -490,8 +490,8 @@ export const dataResources = [
     category: 'transportation',
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
-    name: 'STIB',
-    description: 'The Brussels Intercommunal Transport Company is the local public transport operator in Brussels',
+    name: 'STIB-MIVB - Brussels Intercommunal Transport Company',
+    description: 'The local public transport operator in Brussels, Belgium.',
     url: 'https://www.stib-mivb.be/index.htm?l=en'
   },
   {
@@ -499,8 +499,8 @@ export const dataResources = [
     category: 'transportation',
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
-    name: 'Goca',
-    description: 'Information about car control and driving license',
+    name: 'GOCA',
+    description: 'Group of companies approved for vehicle testing and driving licenses',
     url: 'http://www.goca.be/'
   },
   {
@@ -509,16 +509,16 @@ export const dataResources = [
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
     name: 'Foreign drivers licenses',
-    description: 'Official information about foreign driving licences',
-    url: 'https://mobilit.belgium.be/nl/wegverkeer/rijbewijzen/buitenlandse_rijbewijzen'
+    description: 'Official information about recognition of foreign driving licences',
+    url: 'https://mobilit.belgium.be/en/road_traffic/driving_licence/recognition_foreign_driving_licences'
   },
   {
     id: '58',
     category: 'transportation',
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
-    name: 'Mijn rijbewijsb',
-    description: 'Preparation for the driving test in dutch',
+    name: 'mijnrijbewijsB',
+    description: 'An online learning platform, free and accessible to everyone, to learn the theory and practice for your driver\'s license B (Only in Dutch)',
     url: 'https://www.mijnrijbewijsb.be/'
   },
   {
@@ -526,8 +526,8 @@ export const dataResources = [
     category: 'transportation',
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
-    name: 'Rijbewijzer',
-    description: 'Information about driver training in Flanders',
+    name: 'VSV (Vlaamse Stichting Verkeerskunde)',
+    description: 'The VSV (Flemish Foundation for Traffic Engineering) offers educational projects, awareness campaigns and training for all ages and target groups. It carries out projects on behalf of the Flemish Minister of Mobility and Public Works (Only in Dutch)',
     url: 'https://www.rijbewijzer.be/'
   },
   {
@@ -536,7 +536,7 @@ export const dataResources = [
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
     name: 'VAB driving school',
-    description: 'driving school informatio',
+    description: 'Club dedicated to mobility that offers different services',
     url: 'https://www.vab.be/nl/rijschool'
   },
   {
@@ -545,7 +545,7 @@ export const dataResources = [
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
     name: 'Gratis rijbewijs online',
-    description: 'Website to practice for the driving exam',
+    description: 'Free theory for driving license B and 1000 practice questions and practice exams with a SMS code',
     url: 'https://www.gratisrijbewijsonline.be/'
   },
   {
@@ -554,7 +554,7 @@ export const dataResources = [
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
     name: 'Wegcode',
-    description: 'Updated traffic behavior rules for drivers of priority vehicles',
+    description: 'Updated traffic behavior rules for drivers of priority vehicles (Only in Dutch)',
     url: 'https://www.wegcode.be/'
   },
   {
@@ -572,7 +572,7 @@ export const dataResources = [
     categoryName: 'Transportation',
     categoryImage: 'transportation.svg',
     name: 'Car-pass',
-    description: 'Is the non-profit organization charged by the legislator with a task of public interest i.e. to protect buyers and to promote the fair trade in used vehicles by combating fraud with the odometer',
+    description: 'Is the non-profit organization that works to protect buyers and to promote the fair trade in used vehicles by combating fraud with the odometer',
     url: 'https://www.car-pass.be/en'
   },
   {
@@ -824,7 +824,7 @@ export const dataResources = [
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
     name: 'Unizo',
-    description: 'Entrepreneurial organization in Flanders and Brussels',
+    description: 'The Union of Independent Entrepreneurs, unites approximately 85,000 entrepreneurs, self-employed persons, SMEs and liberal professions in Flanders and Brussels (Only in Dutch)',
     url: 'https://www.unizo.be/'
   },
   {
@@ -833,7 +833,7 @@ export const dataResources = [
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
     name: 'Voka',
-    description: 'Flemish network of companies.',
+    description: 'Professional network of entrepreneurs and a representative organization of companies in Flanders',
     url: 'https://www.voka.be/'
   },
   {
