@@ -14,6 +14,11 @@ export class CategoriesTilesGridComponent implements OnInit {
       image: 'administration.svg'
     },
     {
+      id: 'culture',
+      category: 'CULTURE',
+      image: 'culture.svg'
+    },
+    {
       id: 'education',
       category: 'EDUCATION',
       image: 'education.svg'
@@ -27,11 +32,6 @@ export class CategoriesTilesGridComponent implements OnInit {
       id: 'housing',
       category: 'HOUSING',
       image: 'housing.svg'
-    },
-    {
-      id: 'culture',
-      category: 'CULTURE',
-      image: 'culture.svg'
     },
     {
       id: 'politics',

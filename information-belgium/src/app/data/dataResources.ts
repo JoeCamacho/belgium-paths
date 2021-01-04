@@ -769,8 +769,8 @@ export const dataResources = [
     category: 'public-utilities',
     categoryName: 'Public utilities',
     categoryImage: 'public-utilities.svg',
-    name: 'Fostplus',
-    description: 'Is responsible for promoting, coordinating and financing the selective collecting, sorting and recycling of household packaging waste in Belgium.',
+    name: 'Fost plus',
+    description: 'Is responsible for promoting, coordinating and financing the selective collecting, sorting and recycling of household packaging waste in Belgium',
     url: 'https://www.fostplus.be/en'
   },
   {
@@ -779,7 +779,7 @@ export const dataResources = [
     categoryName: 'Public utilities',
     categoryImage: 'public-utilities.svg',
     name: 'Bettersorting',
-    description: 'Information on sorting garbage',
+    description: 'Its an initiative of Fost Plus, which provides detailed information on sorting rules depending on your place of residence and your intermunicipal company',
     url: 'https://www.bettersorting.be/en'
   },
   {
@@ -797,7 +797,7 @@ export const dataResources = [
     categoryName: 'Public utilities',
     categoryImage: 'public-utilities.svg',
     name: 'Aanbieders',
-    description: 'Gives an overview on energy, telecom and mobile services.',
+    description: 'Its an independent comparator of energy, telecom, financial service providers.',
     url: 'https://www.aanbieders.be/'
   },
   {
@@ -805,8 +805,8 @@ export const dataResources = [
     category: 'public-utilities',
     categoryName: 'Public utilities',
     categoryImage: 'public-utilities.svg',
-    name: 'Vreg',
-    description: 'Independent authority of the Flemish energy market',
+    name: 'VREG',
+    description: 'VREG stands for Flemish Regulator of the Electricity and Gas Market. It\'s an independent authority of the Flemish energy market. It regulates, monitor informs and advise',
     url: 'https://www.vreg.be/en'
   },
   {
@@ -815,7 +815,7 @@ export const dataResources = [
     categoryName: 'Public utilities',
     categoryImage: 'public-utilities.svg',
     name: 'Spaargids',
-    description: 'Help you to find savings accounts, savings bonds, term accounts and other financial products',
+    description: 'It\'s a financial comparison site. It helps you to find savings accounts, savings bonds, term accounts and other financial products',
     url: 'https://www.spaargids.be/sparen/'
   },
   {
@@ -842,7 +842,7 @@ export const dataResources = [
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
     name: 'Flanders Innovation & Entrepreneurship ',
-    description: 'Is the contact point for entrepreneurs in Flanders. Encourage and support innovation and entrepreneurship.',
+    description: 'Contact point for entrepreneurs in Flanders. Encourage and support innovation and entrepreneurship. They focus on: Stimulating growth and innovation, Promoting entrepreneurship, Supporting clusters, Improving environmental factors',
     url: 'https://www.vlaio.be/nl/andere-doelgroepen/flanders-innovation-entrepreneurship'
   },
   {
@@ -851,7 +851,7 @@ export const dataResources = [
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
     name: 'RSVZ / INASTI',
-    description: 'National Institute for the Social Insurance of the Self-Employed',
+    description: 'The National Institute for the Social Security of the Self-employed (NISSE, for its acronym in English) manages social security for self-employed workers',
     url: 'https://www.rsvz.be/nl'
   },
   {
@@ -860,7 +860,7 @@ export const dataResources = [
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
     name: 'Dyzo',
-    description: 'An organisation that helps entrepreneurs in case of financial difficulties',
+    description: 'Is a non-profit association aimed at strengthening entrepreneurs in difficulty in Flanders and is free of charge thanks to financial support from the Flemish government and the efforts of voluntary employees (Only in Dutch)',
     url: 'https://dyzo.be/'
   },
   {
@@ -869,7 +869,7 @@ export const dataResources = [
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
     name: 'Acerta',
-    description: 'Information about starting a business from Acerta',
+    description: 'It offers starters, self-employed persons, SME’s and large and very large companies professional support in terms of social and payroll administration and HR services',
     url: 'https://www.acerta.be/en/starting-your-business'
   },
   {
@@ -878,7 +878,7 @@ export const dataResources = [
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
     name: 'Securex - Start business',
-    description: 'Information about starting a business from Securex',
+    description: 'Securex provides information on how to start a business in Belgium',
     url: 'https://www.istartmybusiness.be/topic/en/homepage'
   },
   {
@@ -886,9 +886,9 @@ export const dataResources = [
     category: 'start-business',
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
-    name: 'Kunstenloket',
-    description: 'Business support for the culture category',
-    url: 'https://www.kunstenloket.be/'
+    name: 'Cultuurloket',
+    description: 'It offers business support for the culture sector in Flanders (Only in Dutch)',
+    url: 'https://www.cultuurloket.be/'
   },
   {
     id: '100',
@@ -896,7 +896,7 @@ export const dataResources = [
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
     name: 'Project AZO',
-    description: 'Support for Foreign-language Self-Employed Entrepreneur',
+    description: 'It provides free guide on how to start a business in Flanders. Focused on newcomers',
     url: 'https://projectazo.be/'
   },
   {
@@ -904,8 +904,8 @@ export const dataResources = [
     category: 'start-business',
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
-    name: 'Microstart',
-    description: 'Offers professional loan, free training and coaching. They give support to create your business.',
+    name: 'microStart',
+    description: 'It provides advice and grants microcredits to (future) entrepreneurs who do not have access to financing from the traditional banking sector',
     url: 'https://microstart.be/nl'
   },
   {
@@ -914,7 +914,7 @@ export const dataResources = [
     categoryName: 'Start a business',
     categoryImage: 'start-business.svg',
     name: 'PMVZ',
-    description: 'Apply for a starting business loan',
-    url: 'https://www.pmvz.eu/startlening'
+    description: 'It offers financial solutions for starting and existing self-employed people in the form of loans and guarantees (Only in Dutch)',
+    url: 'https://www.pmvz.eu/'
   }
 ];
