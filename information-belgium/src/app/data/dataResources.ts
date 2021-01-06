@@ -580,17 +580,26 @@ export const dataResources = [
     category: 'politics',
     categoryName: 'Politics',
     categoryImage: 'politics.svg',
-    name: 'Belgian federal Parliament',
-    description: 'Belgian federal Parliament',
-    url: 'https://www.fed-parl.be'
+    name: 'Belgian Chamber of Representatives',
+    description: 'Official website of the Chamber of Representatives, which together with the Senate, is one of the two legislative assemblies of Belgium at the federal level',
+    url: 'https://www.dekamer.be/kvvcr/index.cfm'
+  },
+  {
+    id: '',
+    category: 'politics',
+    categoryName: 'Politics',
+    categoryImage: 'politics.svg',
+    name: 'The Belgian Senate',
+    description: 'Official website of the Belgian Senate which together with the Belgian Chamber of Representatives, conform Belgium\'s Federal Parliament',
+    url: 'https://www.senate.be/'
   },
   {
     id: '66',
     category: 'politics',
     categoryName: 'Politics',
     categoryImage: 'politics.svg',
-    name: 'Vlaams parlement',
-    description: 'Flemish Parliament',
+    name: 'Vlaams Parlement',
+    description: 'Official website of the Flemish Parliament, which is the legislative power within the Flemish region',
     url: 'https://www.vlaamsparlement.be'
   },
   {
@@ -599,7 +608,7 @@ export const dataResources = [
     categoryName: 'Politics',
     categoryImage: 'politics.svg',
     name: 'Parlement de Wallonie.',
-    description: 'Wallonian Parliament',
+    description: 'Official website of the Parliament of Wallonia, which is the legislative assembly of the Walloon Region',
     url: 'https://www.parlement-wallonie.be/'
   },
   {
@@ -608,8 +617,17 @@ export const dataResources = [
     categoryName: 'Politics',
     categoryImage: 'politics.svg',
     name: 'European Parliament',
-    description: 'The European Parliament is one of three legislative branches of the European Union and one of its seven institutions.',
+    description: 'The European Parliament is one of three legislative branches of the European Union and one of its seven institutions. Together with the Council of the European Union, it adopts European legislation, commonly on the proposal of the European Commission',
     url: 'https://www.europarl.europa.eu/portal/en'
+  },
+   {
+    id: '68',
+    category: 'politics',
+    categoryName: 'Politics',
+    categoryImage: 'politics.svg',
+    name: 'European Commission',
+    description: 'The European Commission is the executive branch of the European Union, responsible for proposing legislation, implementing decisions, upholding the EU treaties and managing the day-to-day business of the EU',
+    url: 'https://ec.europa.eu/info/index_en'
   },
   {
     id: '69',
