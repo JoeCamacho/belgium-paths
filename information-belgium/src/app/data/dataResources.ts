@@ -256,8 +256,8 @@ export const dataResources = [
     category: 'healthcare',
     categoryName: 'Healthcare',
     categoryImage: 'healthcare.svg',
-    name: 'Healthviewer',
-    description: 'HealthViewer is a software application to allow the citizen to access your healthcare data',
+    name: 'My Health Viewer',
+    description: 'Is a software application designed for citizens to view and edit their health data',
     url: 'https://www.myhealthviewer.be/'
   },
   {
@@ -265,8 +265,8 @@ export const dataResources = [
     category: 'healthcare',
     categoryName: 'Healthcare',
     categoryImage: 'healthcare.svg',
-    name: 'RIZIV / INAMI',
-    description: 'Find healthcare providers',
+    name: 'RIZIV / INAMI caregivers searcher',
+    description: 'Website from the National Institute for Sickness and Disability Insurance that helps you to find caregiver professionals',
     url: 'https://ondpanon.riziv.fgov.be/SilverPages/nl'
   },
   {
@@ -275,7 +275,7 @@ export const dataResources = [
     categoryName: 'Healthcare',
     categoryImage: 'healthcare.svg',
     name: 'Mediwacht',
-    description: 'Find healthcare providers in Flanders',
+    description: 'Website to find healthcare providers in Flanders (Only in Dutch)',
     url: 'http://www.mediwacht.be/MDWonline/Default.aspx'
   },
   {
@@ -284,7 +284,7 @@ export const dataResources = [
     categoryName: 'Healthcare',
     categoryImage: 'healthcare.svg',
     name: 'Verbond Vlaams tandartsen',
-    description: 'Find dentist in Flanders',
+    description: 'The professional and scientific association of the Flemish Dentist (Only in Dutch)',
     url: 'https://www.tandarts.be/'
   },
   {
@@ -292,8 +292,8 @@ export const dataResources = [
     category: 'healthcare',
     categoryName: 'Healthcare',
     categoryImage: 'healthcare.svg',
-    name: 'Apotheek',
-    description: 'Find pharmacies',
+    name: 'Apotheek.be / Pharmacie.be',
+    description: 'Helps you to find pharmacies',
     url: 'https://www.apotheek.be/'
   },
   {
@@ -311,7 +311,7 @@ export const dataResources = [
     categoryName: 'Healthcare',
     categoryImage: 'healthcare.svg',
     name: 'Zanzu',
-    description: 'Portal about sexual health',
+    description: 'Website that provides information about sexuality and sexual health in 14 languages',
     url: 'https://www.zanzu.be/en/home'
   },
   {
@@ -320,7 +320,7 @@ export const dataResources = [
     categoryName: 'Healthcare',
     categoryImage: 'healthcare.svg',
     name: 'Federal public service on eutanasia',
-    description: 'Legal base in Belgium about eutanasia',
+    description: 'Legal base about eutanasia in Belgium',
     url: 'https://www.health.belgium.be/nl/gezondheid/zorg-voor-jezelf/levensbegin-en-einde/euthanasie'
   },
   {
@@ -329,7 +329,7 @@ export const dataResources = [
     categoryName: 'Healthcare',
     categoryImage: 'healthcare.svg',
     name: 'Christelijke Mutualiteiten',
-    description: 'Is a Belgian health insurance fund that groups nineteen regional health insurance funds.',
+    description: 'Is a Belgian health insurance fund that groups nineteen regional health insurance funds',
     url: 'https://www.cm.be/'
   },
   {
@@ -338,7 +338,7 @@ export const dataResources = [
     categoryName: 'Healthcare',
     categoryImage: 'healthcare.svg',
     name: 'List of health insurance funds in Belgium',
-    description: 'This directory contains the list and contact details of the health insurance funds of Belgium, of the regional services and of the regional medical centers operating under the compulsory insurance for health care and benefits.',
+    description: 'This directory contains the list and contact details of the health insurance funds of Belgium, of the regional services and of the regional medical centers operating under the compulsory insurance for health care and benefits',
     url: 'https://www.riziv.fgov.be/nl/professionals/andere-professionals/ziekenfonds/Paginas/contacteer-ziekenfondsen.aspx'
   },
   {
@@ -671,7 +671,7 @@ export const dataResources = [
     categoryName: 'Housing',
     categoryImage: 'housing.svg',
     name: 'Vlaams huurdersplatform',
-    description: 'Is the Flemish Tenants Platform (VHP) that supports the activities of the tenants unions and the network of social tenants',
+    description: 'Is the Flemish Tenants Platform (VHP) that supports the activities of the tenants unions and the network of social tenants (Only in Dutch)',
     url: 'https://huurdersplatform.be/'
   },
   {
@@ -680,7 +680,7 @@ export const dataResources = [
     categoryName: 'Housing',
     categoryImage: 'housing.svg',
     name: 'Woning huur vlanderen',
-    description: 'Information on housing rent from the Flemish government',
+    description: 'Official website of the Flemish government with information on housing rent (Only in Dutch)',
     url: 'https://www.woninghuur.vlaanderen/'
   },
   {
@@ -689,7 +689,7 @@ export const dataResources = [
     categoryName: 'Housing',
     categoryImage: 'housing.svg',
     name: 'Immoweb',
-    description: 'Website to find real estate for sale & for rent in Belgium.',
+    description: 'Website to find real estate for sale & for rent in Belgium',
     url: 'https://www.immoweb.be'
   },
   {
@@ -698,7 +698,7 @@ export const dataResources = [
     categoryName: 'Housing',
     categoryImage: 'housing.svg',
     name: 'Zimmo',
-    description: 'Website for real estate ads for sale and for rent in Belgium.',
+    description: 'Search site for all for sale and for rent properties in Belgium',
     url: 'https://www.zimmo.be'
   },
   {
@@ -707,7 +707,7 @@ export const dataResources = [
     categoryName: 'Housing',
     categoryImage: 'housing.svg',
     name: 'Logic immo',
-    description: 'Is a real estate classifieds website dedicated to Belgium',
+    description: 'Real estate site to sell/buy online',
     url: 'https://www.logic-immo.be'
   },
   {
@@ -718,15 +718,6 @@ export const dataResources = [
     name: 'Biddit',
     description: 'Website to buy or sell property online with the advice of your notary',
     url: 'https://www.biddit.be/nl/catalog/landing'
-  },
-  {
-    id: '79',
-    category: 'housing',
-    categoryName: 'Housing',
-    categoryImage: 'housing.svg',
-    name: 'SW Leuven',
-    description: 'Website to find social houses in Leuven',
-    url: 'https://www.swleuven.be/nl/'
   },
   {
     id: '80',
@@ -743,7 +734,7 @@ export const dataResources = [
     categoryName: 'Housing',
     categoryImage: 'housing.svg',
     name: 'Hypotheekwinkel',
-    description: 'Compare bank loans for mortgage',
+    description: 'Provides advice on loans for mortgage',
     url: 'https://www.hypotheekwinkel.be/'
   },
   {
@@ -752,7 +743,7 @@ export const dataResources = [
     categoryName: 'Housing',
     categoryImage: 'housing.svg',
     name: 'Energiesparen',
-    description: 'Is an official website of the Flemish government with useful information about saving energy',
+    description: 'Is an official website of the Flemish government with useful information about saving energy (Only in Dutch)',
     url: 'https://www.energiesparen.be/epc'
   },
   {
@@ -761,7 +752,7 @@ export const dataResources = [
     categoryName: 'Housing',
     categoryImage: 'housing.svg',
     name: 'EPC',
-    description: 'Official information about Energy Performance Certificates',
+    description: 'Is an official website of the Flemish government with information about Energy Performance Certificates (Only in Dutch)',
     url: 'https://www.energiesparen.be/epcparticulier'
   },
   {
@@ -770,7 +761,7 @@ export const dataResources = [
     categoryName: 'Housing',
     categoryImage: 'housing.svg',
     name: 'Mobiscore',
-    description: 'Helps you to discover how a (future) neighborhood scores and how accessible important facilities are on foot or by bicycle',
+    description: 'Is an official website of the Flemish government which helps you to discover how a (future) neighborhood scores and how accessible important facilities are on foot or by bicycle (Only in Dutch)',
     url: 'https://mobiscore.omgeving.vlaanderen.be/'
   },
   {
@@ -779,7 +770,7 @@ export const dataResources = [
     categoryName: 'Housing',
     categoryImage: 'housing.svg',
     name: 'Verzekering Gewaarborgd Wonen',
-    description: 'Official information on the free Guaranteed Living Insurance that helps to pay off your mortgage loan if you fall ill or lose your job',
+    description: 'Official information on the free Guaranteed Living Insurance that helps to pay off your mortgage loan if you fall ill or lose your job (Only in Dutch)',
     url: 'https://www.wonenvlaanderen.be/www.wonenvlaanderen.be/premies/de-gratis-verzekering-gewaarborgd-wonen'
   },
   {
