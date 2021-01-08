@@ -643,8 +643,8 @@ export const dataResources = [
     category: 'culture',
     categoryName: 'Culture',
     categoryImage: 'culture.svg',
-    name: 'In Flanders fields',
-    description: 'A museum in Ypres, Belgium, dedicated to the study of the First World War.',
+    name: 'In Flanders Fields Museum',
+    description: 'The In Flanders Fields Museum tells the historical story of the First World War, with a focus on the human experience and the landscape as a witness to the War',
     url: 'https://www.inflandersfields.be/'
   },
   {
@@ -653,7 +653,7 @@ export const dataResources = [
     categoryName: 'Culture',
     categoryImage: 'culture.svg',
     name: 'Kazerne Dossin',
-    description: 'Memorial, Museum and Documentation Centre on the Holocaust and Human Rights (Mechelen).',
+    description: 'Kazerne Dossin. Memorial, Museum and Documentation Centre on Holocaust and Human Rights',
     url: 'https://www.kazernedossin.eu/EN/'
   },
   {
@@ -662,7 +662,7 @@ export const dataResources = [
     categoryName: 'Culture',
     categoryImage: 'culture.svg',
     name: 'Parlamentarium',
-    description: 'Is the visitors centre of the European Parliament and is located in the Parliaments Espace Léopold complex in Brussels.',
+    description: 'The Parlamentarium is the visitors\' centre of the European Parliament and is located in the Parliament\'s Espace Léopold complex in Brussels',
     url: 'https://www.europarl.europa.eu/visiting/en/visitor-offer/brussels/parlamentarium'
   },
   {
