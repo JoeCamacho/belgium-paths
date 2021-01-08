@@ -1,0 +1,12 @@
+{
+  "APP": {
+    "NON-AUTHENTICATED-LAYOUT": {
+      "BASIC-MENU": {
+        "HOME": "",
+        "CATEGORIES": "",
+        "ABOUT": ""
+      }
+    }
+  }
+}
+
