@@ -13,8 +13,8 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Residence documents',
-    description: 'General overview of the all the belgian redicence documents',
+    name: 'A general overview of all the Belgian residence documents',
+    description: 'Information provided by the Agency for Integration and Inburgering from the Flemish government (Only in Dutch)',
     url: 'https://www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/verblijfsdocumenten'
   },
   {
@@ -22,8 +22,8 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Right to travel',
-    description: 'General overview of travel in Belgium and Europe',
+    name: 'General overview of travel in Belgium and Europe',
+    description: 'Information provided by the Agency for Integration and Inburgering from the Flemish government (Only in Dutch)',
     url: 'https://www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/verblijfsrecht-uitwijzing-reizen/reizen'
   },
   {
@@ -31,8 +31,8 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Work in Flanders',
-    description: 'Information about working in Flanders provided by the Flemish govermet',
+    name: 'Information about the requirements to work in Flanders',
+    description: 'Official website of the Flemish government',
     url: 'https://www.vlaanderen.be/als-buitenlander-in-vlaanderen-komen-werken'
   },
   {
@@ -40,8 +40,8 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Foreign Affairs service',
-    description: 'Belgian goverment office that ensures the management of the migration flows',
+    name: 'IBZ',
+    description: 'The website of the Federal Public Service Home Affairs of Belgium',
     url: 'https://www.ibz.be/nl/dienst-vreemdelingenzaken'
   },
   {
@@ -49,8 +49,8 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Belgian police',
-    description: 'Official website of the Belgian police force',
+    name: 'The Belgian Federal Police',
+    description: 'The national police force of the Kingdom of Belgium',
     url: 'https://www.police.be/en'
   },
   {
@@ -58,8 +58,8 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Commissariaat - Generaal voor Vluchtelingen en Staatlozen',
-    description: 'Commissioner General for Refugees and Stateless Persons',
+    name: 'Office of the Commissioner General for Refugees and Stateless Persons (CGRS)',
+    description: 'The mission of the CGRS is to offer protection to persons who, if they return to their country of origin, run the risk of persecution or serious harm',
     url: 'https://www.cgrs.be/en'
   },
   {
@@ -68,7 +68,7 @@ export const dataResources = [
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
     name: 'Centrum Algemeen Welzijnswerk (CAW)',
-    description: 'General Welfare Work (CAW)',
+    description: 'The General Welfare Work (CAW), helps people with all their questions and problems related to wellbeing',
     url: 'https://www.caw.be/'
   },
   {
@@ -77,34 +77,35 @@ export const dataResources = [
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
     name: 'Raad voor Vreemdelingenbetwistingen',
-    description: 'Conseil du Contentieux des Etrangers ',
+    description: 'The Council for Aliens Litigation is an independent administrative court. An appeal can be lodged with the Council against decisions of the Office of the Commissioner General for Refugees and Stateless Persons, against decisions of the Immigration Department',
     url: 'https://www.rvv-cce.be/nl'
-  },
-  {
-    id: '10',
-    category: 'administration',
-    categoryName: 'Administration',
-    categoryImage: 'administration.svg',
-    name: 'Apply for belgian nationality',
-    description: 'General information about how to apply for the Belgian nationality provided by the non-profit Objectief',
-    url: 'http://www.allrights.be/nl/hoe-wordt-je-belg'
   },
   {
     id: '11',
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Belgian nationality Agency Integration and Inburgering',
-    description: 'General information about how to apply for the Belgian nationality provided by',
+    name: 'General information about Belgian nationality ',
+    description: 'Provided by the Agency Integration and Inburgering (Only in Dutch)',
     url: 'https://www.agii.be/thema/vreemdelingenrecht-internationaal-privaatrecht/nationaliteit'
   },
+  {
+    id: '10',
+    category: 'administration',
+    categoryName: 'Administration',
+    categoryImage: 'administration.svg',
+    name: 'Procedure to apply for Belgian nationality by Objectief',
+    description: 'General information about how to apply for the Belgian nationality provided by the non-profit Objectief',
+    url: 'http://www.allrights.be/nl/hoe-wordt-je-belg'
+  },
+
   {
     id: '12',
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Myria',
-    description: 'Independent centers that help and guide immigrants',
+    name: 'Myria - Centre fédéral Migration/ Federaal Migratiecentrum',
+    description: 'Is an independent public institution that analyzes migration, defends the rights of foreigners and fights against human trafficking and smuggling. Myria stands up for a government policy that is based on factual knowledge and respect for human rights',
     url: 'https://www.myria.be/en'
   },
   {
@@ -112,8 +113,8 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'eID',
-    description: 'Information on eID software for electronic identity',
+    name: 'eID software',
+    description: 'The eID is an electronic proof of identity (with chip) with which you can carry out electronic transactions. You can use the eID for: identification at different authorities, signing electronic documents, securely logging in to online public services',
     url: 'https://eid.belgium.be/en/what-eid'
   },
   {
@@ -121,8 +122,8 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Itsme',
-    description: 'App to replace the eID software',
+    name: 'itsme Digital ID',
+    description: 'Digital ID, to log in securely, to share your ID data or to sign by using your mobile phone. Avoid using passwords, card readers or tokens',
     url: 'https://www.itsme.be/en/'
   },
   {
@@ -131,7 +132,7 @@ export const dataResources = [
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
     name: 'My Social Security',
-    description: 'A website that groups most of social security institutions',
+    description: 'The result of a partnership between several public services, its objective is to provide Belgian citizens with a central point for their personal information and documents',
     url: 'https://www.mysocialsecurity.be/'
   },
   {
@@ -140,7 +141,7 @@ export const dataResources = [
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
     name: 'My e-box',
-    description: 'Portal to consult oficial documents',
+    description: 'Via my e-Box you can receive documents from governments electronically.',
     url: 'https://mycitizenebox.belgium.be/myebox/'
   },
   {
@@ -149,7 +150,7 @@ export const dataResources = [
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
     name: 'My career',
-    description: 'Portal to get an overview of your career in Belgium',
+    description: 'Portal to find an overview of your career in the form of a  timeline. On it you will see: all periods in which you were active, and all periods in which you were not active because of, for example, unemployment, time credit, etc',
     url: 'https://mycareer.be/nl/index.html'
   },
   {
@@ -158,7 +159,7 @@ export const dataResources = [
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
     name: 'My pension',
-    description: 'Consult your pension file',
+    description: 'Online pension portal which contains all the personalized information about your statutory pension and your supplementary pension',
     url: 'https://www.mypension.be/nl'
   },
   {
@@ -166,7 +167,7 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Career break',
+    name: 'Career break and time credit file',
     description: 'Consult your career break and time credit dossier, or make a new application',
     url: 'https://www.socialsecurity.be/citizen/fr/static/applics/elo/index.htm'
   },
@@ -176,7 +177,7 @@ export const dataResources = [
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
     name: 'Break@work',
-    description: 'How many months of career break, time credit or thematic leave are you still entitled to?',
+    description: 'Via this application, quickly calculate the amount of your time credit or career break allowance as well as the duration to which you are still entitled',
     url: 'https://www.breakatwork.be/'
   },
   {
@@ -184,53 +185,53 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Working as student',
-    description: 'Working as student',
+    name: 'Student@work',
+    description: 'Information about working as a student in Belgium. Who is a working student? How many hours can you work as a student? What does it mean for your pay, child benefits or taxes to work as a student? This site gives you the answers - or helps you to find them',
     url: 'https://www.mysocialsecurity.be/student/en/index.html'
-  },
-  {
-    id: '22',
-    category: 'administration',
-    categoryName: 'Administration',
-    categoryImage: 'administration.svg',
-    name: 'Vlaanderen',
-    description: 'Portal of the Government of Flanders',
-    url: 'https://www.vlaanderen.be/'
-  },
-  {
-    id: '23',
-    category: 'administration',
-    categoryName: 'Administration',
-    categoryImage: 'administration.svg',
-    name: 'Brussels',
-    description: 'Portal of the Government of Brussels',
-    url: 'https://be.brussels/a-propos-de-la-region/le-gouvernement-regional'
-  },
-  {
-    id: '24',
-    category: 'administration',
-    categoryName: 'Administration',
-    categoryImage: 'administration.svg',
-    name: 'Wallonie',
-    description: 'Portal of the Government of Wallonia',
-    url: 'https://gouvernement.wallonie.be'
   },
   {
     id: '25',
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Federal goverment of Belgium',
-    description: 'Portal of the Government of Belgium',
+    name: 'my.belgium.be',
+    description: 'Your online government service',
     url: 'https://my.belgium.be/nl'
+  },
+  {
+    id: '23',
+    category: 'administration',
+    categoryName: 'Administration',
+    categoryImage: 'administration.svg',
+    name: 'be.brussels',
+    description: 'Official portal of the Region of Brussels capital',
+    url: 'https://be.brussels/bruxelles'
+  },
+  {
+    id: '22',
+    category: 'administration',
+    categoryName: 'Administration',
+    categoryImage: 'administration.svg',
+    name: 'Vlaanderen.be',
+    description: 'Official portal for information from the Flemish government (Only in Dutch)',
+    url: 'https://www.vlaanderen.be/'
+  },
+  {
+    id: '24',
+    category: 'administration',
+    categoryName: 'Administration',
+    categoryImage: 'administration.svg',
+    name: 'Gouvernement de Wallonie',
+    description: 'Official page of the government of Wallonia. It is aimed at all Walloon citizens for providing information on regional skills and actions and for promoting the Walloon territory, its living forces and its inhabitants (Only in French)',
+    url: 'https://gouvernement.wallonie.be'
   },
   {
     id: '26',
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Myminfin',
-    description: 'Portal for taxes',
+    name: 'myMINFIN',
+    description: 'Is the SPF Finances platform that allows you to manage your tax file, consult your personal documents and use our online services, such as Tax-on-web for example',
     url: 'https://www.myminfin.be'
   },
   {
@@ -239,7 +240,7 @@ export const dataResources = [
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
     name: 'Police e-loket',
-    description: 'Online version of your local police office',
+    description: 'Online reporting "Police on Web" application which is only available in the national languages Dutch, French or German',
     url: 'https://www.politie.be/nl/e-loket'
   },
   {
@@ -247,8 +248,8 @@ export const dataResources = [
     category: 'administration',
     categoryName: 'Administration',
     categoryImage: 'administration.svg',
-    name: 'Studietoelagen',
-    description: 'Study grands for higher education Flanders',
+    name: 'Study grants for higher education from the Flemish government',
+    description: 'Its part of the agency AHOVOKS (Agency for Higher Education, Adult Education, Qualifications and Study Grants). Its responsible for the payment of the allowances (Only in Dutch)',
     url: 'https://www.studietoelagen.be/'
   },
   {
@@ -346,8 +347,8 @@ export const dataResources = [
     category: 'education',
     categoryName: 'Education',
     categoryImage: 'education.svg',
-    name: 'Portal of education on Flanders',
-    description: 'Portal of education from the Flemish government',
+    name: 'Onderwijs Vlaanderen',
+    description: 'Official website of the Flemish government for education in the Flemish Community (Only dutch)',
     url: 'https://onderwijs.vlaanderen.be/'
   },
   {
@@ -356,7 +357,7 @@ export const dataResources = [
     categoryName: 'Education',
     categoryImage: 'education.svg',
     name: 'Van basis naar Secundair',
-    description: 'Portal to help students in Flanders to find the right direction into secondary studies',
+    description: 'Portal to help students in Flanders to find the right direction into secondary studies (Only in dutch)',
     url: 'https://vanbasisnaarsecundair.be/'
   },
   {
@@ -364,8 +365,8 @@ export const dataResources = [
     category: 'education',
     categoryName: 'Education',
     categoryImage: 'education.svg',
-    name: 'Onderwijskiezer',
-    description: 'Portal with information about the options in education',
+    name: 'Onderwijskiezer.be',
+    description: 'It helps studenst to find the direction that suits them better. Intended for students, parents, teachers (Only in dutch)',
     url: 'https://www.onderwijskiezer.be/'
   },
   {
@@ -373,8 +374,8 @@ export const dataResources = [
     category: 'education',
     categoryName: 'Education',
     categoryImage: 'education.svg',
-    name: 'Huizenvanhetkind',
-    description: 'Everything related to parenting and growing up in Flanders',
+    name: 'Huis van het kind',
+    description: 'Is the local information and meeting place for parents that offers shelter to all child-related services (Only in dutch)',
     url: 'http://www.huizenvanhetkind.be/'
   },
   {
@@ -383,7 +384,7 @@ export const dataResources = [
     categoryName: 'Education',
     categoryImage: 'education.svg',
     name: 'JAC',
-    description: 'JAC is the youth department of CAW, a social organization helping people to solve questions and personal, financial, administrative or judicial problems',
+    description: 'JAC is the youth department of the CAW (Center for General Welfare Work), a social organization helping people to solve questions and personal, financial, administrative or judicial problems (Only in dutch)',
     url: 'https://www.caw.be/jac/'
   },
   {
@@ -392,7 +393,7 @@ export const dataResources = [
     categoryName: 'Education',
     categoryImage: 'education.svg',
     name: 'Awel',
-    description: 'Awel listens to all children and young people with a question, a story, a problem:',
+    description: 'Nonprofit Organization that listens to all children and young people with a question, a story, a problem (Only in dutch)',
     url: 'https://awel.be/'
   },
   {
@@ -400,8 +401,8 @@ export const dataResources = [
     category: 'education',
     categoryName: 'Education',
     categoryImage: 'education.svg',
-    name: 'CLB',
-    description: 'Student Guidance Center of the flemish government',
+    name: 'Centrum voor leerlingenbegeleiding (CLB)',
+    description: 'Official website of the Flemish government. It provides students with guidance and support throughout their schooling. All schools in Flanders are connected to a CLB and its service is free of charge (Only in dutch)',
     url: 'https://onderwijs.vlaanderen.be/nl/clb'
   },
   {
@@ -410,7 +411,7 @@ export const dataResources = [
     categoryName: 'Education',
     categoryImage: 'education.svg',
     name: 'Klasse',
-    description: 'Website with some good background materials on education and schools',
+    description: 'Is a multimedia communication platform that strengthens and connects education professionals, parents and students (Only in Dutch)',
     url: 'https://www.klasse.be/'
   },
   {
@@ -419,7 +420,7 @@ export const dataResources = [
     categoryName: 'Education',
     categoryImage: 'education.svg',
     name: 'VDAB training',
-    description: 'Flemish Employment and Vocational Training Service provides training in dutch for job seakers',
+    description: 'Training database from the Flemish Employment and Vocational Training Service (VDAB) which provides a list of trainings in dutch for job seekers (Only in Dutch)',
     url: 'https://www.vdab.be/opleidingen'
   },
   {
@@ -428,7 +429,7 @@ export const dataResources = [
     categoryName: 'Education',
     categoryImage: 'education.svg',
     name: 'Syntra',
-    description: 'SYNTRA provides practice-oriented courses for enterprising people',
+    description: 'SYNTRA provides practice-oriented courses for enterprising people who want to learn exactly what they need to get started',
     url: 'https://www.syntra.be'
   },
   {
@@ -437,7 +438,7 @@ export const dataResources = [
     categoryName: 'Education',
     categoryImage: 'education.svg',
     name: 'Vormingplus',
-    description: 'Thirteen pluralistic socio-cultural organizations active in as many regions in Flanders and Brussels. Provide professional courses, only short term courses and workshops on an informal way, rather as a hobby',
+    description: 'Thirteen pluralistic socio-cultural organizations active in as many regions in Flanders and Brussels. Provide professional courses, only short term courses and workshops on an informal way, rather as a hobby (Only in Dutch)',
     url: 'https://www.vormingplus.be/'
   },
   {
@@ -445,8 +446,8 @@ export const dataResources = [
     category: 'education',
     categoryName: 'Education',
     categoryImage: 'education.svg',
-    name: 'Wisper',
-    description: 'Leuven based creative courses and workshops',
+    name: 'WISPER',
+    description: 'WISPER organizes artistic courses for adults from 18 years old. Leuven based',
     url: 'https://www.wisper.be/'
   },
   {
@@ -455,7 +456,7 @@ export const dataResources = [
     categoryName: 'Education',
     categoryImage: 'education.svg',
     name: 'Cafecombinne',
-    description: 'Meeting to practice dutch',
+    description: 'Café Combinne is a chat café where Dutch speakers and people learning Dutch meet in an open and friendly atmosphere',
     url: 'https://www.archeduc.be/cafecombinne'
   },
   {
@@ -620,7 +621,7 @@ export const dataResources = [
     description: 'The European Parliament is one of three legislative branches of the European Union and one of its seven institutions. Together with the Council of the European Union, it adopts European legislation, commonly on the proposal of the European Commission',
     url: 'https://www.europarl.europa.eu/portal/en'
   },
-   {
+  {
     id: '68',
     category: 'politics',
     categoryName: 'Politics',
