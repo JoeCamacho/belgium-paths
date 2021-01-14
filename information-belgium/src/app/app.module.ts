@@ -20,7 +20,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {LocationStrategy} from '@angular/common';
 import {MultiTranslateHttpLoader} from 'ngx-translate-multi-http-loader';
 
@@ -44,6 +44,7 @@ const MaterialModules = [
 
 @NgModule({
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,

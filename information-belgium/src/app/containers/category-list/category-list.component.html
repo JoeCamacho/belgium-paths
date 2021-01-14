@@ -1,7 +1,7 @@
 <section class="container categories-lists-container">
   <a (click)="back()" class="back-button"><p>< Back</p></a>
-  <h2>{{firstDataResource.categoryName}}</h2>
-  <mat-card *ngFor="let dataResource of filteredDataResources">
+  <h2>{{category}}</h2>
+  <mat-card *ngFor="let dataResource of filteredDataResources | async">
     <a href="{{dataResource.url}}" class="card-content"
        target="_blank" rel="noreferrer noopener">
       <img mat-card-image src="assets/img/tile-icons/{{dataResource.categoryImage}}" alt="Category icon">
