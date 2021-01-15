@@ -1,7 +1,24 @@
+<!--TODO: PUT BACK TO GET DATA FROM BACKEND-->
+<!--<section class="container categories-lists-container">-->
+<!--  <a (click)="back()" class="back-button"><p>< Back</p></a>-->
+<!--  <h2>{{category}}</h2>-->
+<!--  <mat-card *ngFor="let dataResource of filteredDataResources | async">-->
+<!--    <a href="{{dataResource.url}}" class="card-content"-->
+<!--       target="_blank" rel="noreferrer noopener">-->
+<!--      <img mat-card-image src="assets/img/tile-icons/{{dataResource.categoryImage}}" alt="Category icon">-->
+<!--      <div class="card-text">-->
+<!--        <mat-card-title>{{dataResource.name}}</mat-card-title>-->
+<!--        <mat-card-content>{{dataResource.description}}</mat-card-content>-->
+<!--      </div>-->
+<!--    </a>-->
+<!--  </mat-card>-->
+<!--</section>-->
+
+
 <section class="container categories-lists-container">
   <a (click)="back()" class="back-button"><p>< Back</p></a>
   <h2>{{category}}</h2>
-  <mat-card *ngFor="let dataResource of filteredDataResources | async">
+  <mat-card *ngFor="let dataResource of filteredDataResources">
     <a href="{{dataResource.url}}" class="card-content"
        target="_blank" rel="noreferrer noopener">
       <img mat-card-image src="assets/img/tile-icons/{{dataResource.categoryImage}}" alt="Category icon">

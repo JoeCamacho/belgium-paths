@@ -3,6 +3,7 @@ import {ActivatedRoute} from '@angular/router';
 import {ResourcePortal} from '../../models';
 import {Location} from '@angular/common';
 import {ResourcesService,} from '../../services/resources.services';
+import * as dataResources from '../../data/dataResources'
 import {Observable} from 'rxjs';
 import {map} from 'rxjs/operators';
 
@@ -13,7 +14,9 @@ import {map} from 'rxjs/operators';
 })
 export class CategoryListComponent implements OnInit {
 
-  public filteredDataResources: Observable<ResourcePortal[]>;
+  // <!--TODO: PUT BACK TO GET DATA FROM BACKEND-->
+  // public filteredDataResources: Observable<ResourcePortal[]>;
+  public filteredDataResources: ResourcePortal[];
   public firstDataResource: ResourcePortal;
 
   public category: string;
@@ -25,10 +28,11 @@ export class CategoryListComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.filteredDataResources = this.resourcesService.getAll().pipe(
-      map(resources => resources.filter(resource => resource.category === this.category))
-    );
-    // this.filteredDataResources = dataResources.dataResources.filter(resource => resource.category === this.route.snapshot.params.categoryId);
+    // TODO: PUT BACK TO GET DATA FROM BACKEND
+    // this.filteredDataResources = this.resourcesService.getAll().pipe(
+    //   map(resources => resources.filter(resource => resource.category === this.category))
+    // );
+    this.filteredDataResources = dataResources.dataResources.filter(resource => resource.category === this.route.snapshot.params.categoryId);
     window.scroll(0, 0);
   }
 
