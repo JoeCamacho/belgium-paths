@@ -2,9 +2,9 @@ import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {ResourcePortal} from '../../models';
 import {Location} from '@angular/common';
-import {ResourcesService, } from '../../services/resources.services';
+import {ResourcesService,} from '../../services/resources.services';
 import {Observable} from 'rxjs';
-import {filter, map} from 'rxjs/operators';
+import {map} from 'rxjs/operators';
 
 @Component({
   selector: 'app-category-list',
@@ -20,14 +20,13 @@ export class CategoryListComponent implements OnInit {
 
   constructor(public route: ActivatedRoute,
               public location: Location,
-              public resourcesService: ResourcesService, ) {
-
+              public resourcesService: ResourcesService) {
     this.category = this.route.snapshot.params.categoryId;
   }
 
   ngOnInit() {
     this.filteredDataResources = this.resourcesService.getAll().pipe(
-      map(resources => resources.filter(resource => resource.category === this.category) )
+      map(resources => resources.filter(resource => resource.category === this.category))
     );
     // this.filteredDataResources = dataResources.dataResources.filter(resource => resource.category === this.route.snapshot.params.categoryId);
     window.scroll(0, 0);
@@ -36,5 +35,4 @@ export class CategoryListComponent implements OnInit {
   back() {
     this.location.back();
   }
-  
 }
