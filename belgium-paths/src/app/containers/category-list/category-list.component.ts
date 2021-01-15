@@ -27,7 +27,7 @@ export class CategoryListComponent implements OnInit {
 
   ngOnInit() {
     this.filteredDataResources = this.resourcesService.getAll().pipe(
-      map(resources => filter(resource => resource.category === this.category) )
+      map(resources => resources.filter(resource => resource.category === this.category) )
     );
     // this.filteredDataResources = dataResources.dataResources.filter(resource => resource.category === this.route.snapshot.params.categoryId);
     window.scroll(0, 0);
@@ -36,7 +36,5 @@ export class CategoryListComponent implements OnInit {
   back() {
     this.location.back();
   }
-
-
-
+  
 }
