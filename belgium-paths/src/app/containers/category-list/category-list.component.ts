@@ -3,9 +3,7 @@ import {ActivatedRoute} from '@angular/router';
 import {ResourcePortal} from '../../models';
 import {Location} from '@angular/common';
 import {ResourcesService,} from '../../services/resources.services';
-import * as dataResources from '../../data/dataResources'
-import {Observable} from 'rxjs';
-import {map} from 'rxjs/operators';
+import * as dataResources from '../../data/dataResources';
 
 @Component({
   selector: 'app-category-list',

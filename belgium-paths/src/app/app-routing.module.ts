@@ -1,14 +1,13 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
-import {NonAuthenticatedLayoutComponent} from './layouts/non-authenticated-layout/non-authenticated-layout.component';
+import {NonAuthenticatedLayoutComponent} from './layouts';
 import {
   AboutPageComponent,
   CategoriesTilesGridComponent,
   CategoryListComponent,
-  ContactPageComponent,
   LandingPageComponent,
 } from './containers';
-import {CategoriesLayoutComponent} from './layouts/categories-layout/categories-layout.component';
+import {CategoriesLayoutComponent} from './layouts';
 
 
 const routes: Routes = [
